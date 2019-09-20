@@ -31,7 +31,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 	//Svg tspan function
 	function svgTspan(svg, id, content, x, y) {
 
-		var svgNS = svg.namespaceURI;
 	  var aTspan = document.createElementNS("http://www.w3.org/2000/svg", 'tspan');
 
 		aTspan.textContent = content;
