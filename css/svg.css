@@ -1,0 +1,127 @@
+:root {
+  --blu: #2b88aa;
+  --azzurro: #dcf0ed;
+  --azzurrino: #97d8d0;
+  --giallo: #fedd12;
+  --giallone: #ebc363;
+  --rosso: #b7202f;
+  stroke:none;
+}
+
+/*Testi*/
+text {
+  font-family:'Open Sans Condensed', sans-serif;
+  fill: var(--blu);
+  font-weight: bold;
+  font-stretch: condensed;
+  font-size: 8px;
+  stroke-width: 0.25
+  line-height: 0.4;
+  letter-spacing: 0px;
+  word-spacing: 0px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-anchor:end;
+  text-align:end;
+}
+
+
+.piano {
+  font-size: 12px;
+  text-align:start;
+  text-anchor:start
+}
+
+.descrText{
+    font-size: 10px;
+    fill: var(--rosso);
+    font-style: italic;
+}
+
+/*Parti*/
+.aula {
+  fill: var(--giallo);
+}
+
+.aula:hover {
+  stroke-width:2px;
+  stroke: white;
+  stroke-opacity:1;
+  stroke-miterlimit:4;
+  fill-opacity:1;
+  fill: var(--rosso);
+}
+
+.servizio {
+  fill: var(--giallone);
+}
+
+.muri {
+  fill: var(--blu);
+}
+
+.distribuzione {
+  fill: var(--azzurro);
+  fill: #dcf0ed;
+}
+
+.bidelleria, .ascensore, .caffe {
+  fill: var(--azzurro);
+  stroke: var(--blu);
+  stroke-width:0.25
+}
+
+.bidelleria, .ascensore {
+
+}
+
+.wc {
+  fill: var(--azzurrino);
+}
+
+.scala {
+  fill:none;
+  stroke: var(--blu);
+  stroke-width:0.025
+}
+
+#marker-freccia {
+  fill:#2b88aa;
+  fill-opacity:1;
+  fill-rule:evenodd;
+  stroke:#2b88aa;
+  stroke-width:1pt;
+  stroke-opacity:1;
+  stroke-linejoin:round;"
+}
+
+.freccia {
+  fill:none;
+  stroke: var(--blu);
+  stroke-width:0.025;
+  marker-end:url(#markerFreccia);
+}
+
+
+/*Altro*/
+.logo {
+  fill: white;
+}
+
+.logo-nero {
+  fill: black;
+}
+
+.logo-rosso {
+  fill: var(--rosso);
+}
+
+
+.selected {
+  fill: var(--rosso);
+  stroke-width:0.6;
+  stroke:#ffffff;
+  stroke-opacity:1;
+  stroke-miterlimit:4;
+  fill-opacity:1
+}
