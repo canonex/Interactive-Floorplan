@@ -28,6 +28,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 	var floorplan = {};
 
+
 	//Svg tspan function
 	function svgTspan(svg, id, content, x, y) {
 
@@ -42,17 +43,41 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 	  return aTspan;
 	}
 
+
+  //Create a button
+  function createButton(context, id, title, func) {
+      var button = document.createElement("input");
+      button.id=id;
+      button.type = "button";
+      button.value = title;
+      button.onclick = func;
+      context.appendChild(button);
+  }
+
+
 	//Starting here
 	g.onload = function(){
 
 		//If plan obj exists
 		if( document.getElementById('floorplan') ) {
 
+
+      var formSearch = document.getElementById('form-search');
+      createButton(formSearch, "collapse-button", "Collassa", collapseFloor);
+      createButton(formSearch, "collapse-button", "Ripristina", restoreFloor);
+
 			var svg = document.getElementById('floorplan').contentDocument;
 
 			//Active elements
 			var aule = svg.getElementsByClassName('aula');
+      var floors = svg.getElementsByClassName("floor");
 
+      //Search behaviour
+      var searchInput = document.getElementById('floorplan-search');
+      //Show behaviour
+      var showInput = document.getElementById('show-floor');
+
+      //Mouse hover behaviour
 			for (let aula of aule) {
 
 				//Create text when mouse over
@@ -84,13 +109,13 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 			}; //For aule
 
-      var searchinput = document.getElementById('floorplan-search');
 
-      searchinput.addEventListener('keyup', function() {
+      //Event  writing
+      searchInput.addEventListener('keyup', function() {
 
-        if (searchinput.value.length > 1) {
+        if (searchInput.value.length > 1) {
 
-          var iSearch = searchinput.value.toUpperCase()
+          var iSearch = searchInput.value.toUpperCase()
 
           for (let aula of aule) {
 
@@ -101,17 +126,77 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
             aula.classList.remove( "selected");
 
             //Seach in id and in data-use
-            if( aulaId.toUpperCase().indexOf(iSearch) > -1 ||
-             aulaUse.toUpperCase().indexOf(iSearch) > -1 ) {
+            if( aulaId.indexOf(iSearch) > -1 || aulaUse.indexOf(iSearch) > -1 ) {
 
               aula.classList.add( "selected");
 
             }
           }
+        } else {
+          for (let aula of aule) {
+            aula.classList.remove( "selected");
+          }
         }
       });
 
-		}
+
+      //Displace behaviour
+      //Collapse
+      function collapseFloor(){
+
+        for (let foor of floors) {
+          deltax=50;
+          deltay=-800;
+          foor.transform.baseVal.getItem(0).setTranslate(deltax,deltay);
+        }
+
+      };
+
+      //Restore
+      function restoreFloor(){
+
+        for (let foor of floors) {
+          posx=foor.dataset.posx;
+          posy=foor.dataset.posy;
+          foor.transform.baseVal.getItem(0).setTranslate(posx,posy);
+        }
+
+      };
+
+
+      //Event  writing
+      showInput.addEventListener('keyup', function() {
+
+        if (showInput.value.length > 1) {
+
+          collapseFloor();
+
+          var iSearch = showInput.value.toUpperCase()
+
+          for (let floor of floors) {
+
+            var floorId = floor.id.toUpperCase();
+
+            //Clear all
+            floor.style.display = 'none';
+
+            //Seach in id and in data-use
+            if( floorId.indexOf(iSearch) > -1 ) {
+
+              floor.style.display = 'inline';
+
+            }
+          }
+        } else {
+          for (let floor of floors) {
+            floor.style.display = 'inline';
+          }
+          restoreFloor();
+        }
+      });
+
+
+		} //If floorplan
 	};
 
 })(window);

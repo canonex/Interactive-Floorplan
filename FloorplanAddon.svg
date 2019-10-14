@@ -10,13 +10,13 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="svg3599"
    version="1.1"
-   viewBox="0 0 800 1218"
-   height="1218mm"
-   width="800mm"
-   sodipodi:docname="Rilievo-NS.svg"
+   viewBox="0 0 797.989 1218"
+   height="1218.01mm"
+   width="797.998mm"
+   sodipodi:docname="FloorplanAddon.svg"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
   <title
-     id="title6850">Planimetria Accademia Sironi Sassari</title>
+     id="title6850">Planimatria Accademia Sironi Sassari</title>
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -30,9 +30,9 @@
      inkscape:window-height="1016"
      id="namedview6848"
      showgrid="false"
-     inkscape:zoom="0.125"
-     inkscape:cx="1545.56"
-     inkscape:cy="1640.36"
+     inkscape:zoom="0.353553"
+     inkscape:cx="1305.78"
+     inkscape:cy="1607.83"
      inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
@@ -122,179 +122,282 @@
       </cc:License>
     </rdf:RDF>
   </metadata>
-  <g id="Sironi-Logo" transform="matrix(10,0,0,10,50,-1800)">
-    <path id="Sironi-LogoK" class="logo-nero"
+  <g
+     id="Sironi-Logo"
+     transform="matrix(10,0,0,10,50,-1798)"
+     style="fill:none;stroke:#000000">
+    <path
+       id="Sironi-LogoK"
+       class="logo-nero"
        d="m 62.1908,187.682 -0.057,0.109 -0.052,0.123 0.019,0.181 c 0.1092,1.219 0.1471,3.121 0.071,3.785 -0.028,0.251 -0.047,0.467 -0.047,0.52 0,0.02 0.01,0.04 0.019,0.07 v 0 0 c 0.014,0.04 0.038,0.08 0.071,0.107 h -0.014 c 0.1044,0.108 0.2421,0.126 0.3797,0.04 0.047,-0.02 0.2564,-0.05 0.4605,-0.07 0.4462,-0.02 1.1392,-0.107 1.4525,-0.161 0.1235,-0.02 0.3561,-0.05 0.5127,-0.05 0.1566,0 0.3275,-0.02 0.375,-0.04 0.043,-0.02 0.066,-0.06 0.081,-0.09 0.019,-0.02 0.033,-0.04 0.033,-0.05 0,0 -0.01,0 -0.024,0 0,-0.03 -0.024,-0.05 -0.057,-0.05 -0.033,0 -0.5981,0 -1.2626,-0.02 l -1.201,-0.02 -0.085,-0.07 -0.085,-0.09 -0.043,-0.233 v -0.04 l -0.01,-0.108 c -0.01,-0.13 -0.014,-0.31 -0.019,-0.519 l 0.01,-0.737 c 0.019,-0.625 0.019,-1.266 0.019,-1.449 0.01,-0.151 0.019,-0.27 0.029,-0.332 l 0.033,-0.03 0.057,-0.04 0.4509,0.04 c 0.2516,0.01 0.5507,0.05 0.6646,0.05 0.1187,0.02 0.2848,0.03 0.3703,0.05 l 0.1519,0.04 v -0.06 h 0.024 v 0 h 0.01 l -0.033,-0.02 c -0.014,-0.08 -0.2421,-0.208 -0.3513,-0.208 -0.1044,0 -0.9257,-0.323 -1.0159,-0.394 -0.066,-0.05 -0.3892,-0.143 -0.769,-0.214 h -0.062 -0.043 v 0 z m 2.4684,0.36 0.019,0.806 c 0,0.346 0.01,0.653 0.019,0.762 v 0.03 0 c 0,0.01 0,0.02 0.01,0.02 0.01,0.02 0.043,0 0.076,-0.05 0.033,-0.04 0.081,-0.198 0.1,-0.359 0.019,-0.162 0.057,-0.377 0.076,-0.467 l 0.047,-0.159 h 0.1139 c 0.2801,0.03 0.4605,0.05 0.6361,0.123 0.1045,0.04 0.3086,0.108 0.451,0.144 0.1424,0.02 0.318,0.09 0.3892,0.144 l 0.1282,0.09 0.052,0.215 c 0.019,0.108 0.038,0.233 0.019,0.251 -0.028,0.04 0.029,0.173 0.076,0.217 l 0.014,0.05 0.01,-0.03 0.01,0.01 0.014,-0.03 c 0.033,-0.02 0.057,-0.103 0.076,-0.208 l 0.014,-0.216 0.1994,0.126 c 0.1092,0.05 0.375,0.161 0.5554,0.233 0.1994,0.07 0.413,0.179 0.4652,0.233 0.014,0 0.029,0.02 0.043,0.02 l 0.014,0.03 h 0.057 c 0.033,0.01 0.062,0.02 0.085,0.02 0.052,0 0.1092,0.04 0.1282,0.05 0.014,0.02 0.033,0.34 0.033,0.717 v 0.567 c 0,0.05 0,0.09 -0.01,0.134 l -0.043,0.09 c -0.038,0.05 -0.057,0.161 -0.057,0.215 v 0.108 h -0.2659 c -0.024,0 -0.066,0 -0.1,0 h -0.047 c -0.2326,0 -0.7168,0.02 -1.1108,0.04 l -0.6788,0.04 -0.014,0.02 h -0.024 l -0.024,0.07 c 0,0 0,0 0,0.01 l -0.019,0.05 h 0.076 c 0.067,0.02 0.2042,0.05 0.3466,0.07 l 0.3797,0.05 0.2848,-0.02 c 0.5032,-0.04 1.3292,-0.04 1.4004,0 l 0.071,0.03 0.071,-0.05 0.071,-0.04 v -0.323 -0.377 c 0,-0.394 0.019,-0.915 0.038,-1.184 l 0.024,-0.357 0.01,-0.04 v 0 -0.08 l -0.071,-0.05 c -0.033,-0.02 -0.1424,-0.05 -0.2658,-0.07 -0.1282,-0.02 -0.47,-0.107 -0.7928,-0.215 -0.2753,-0.1 -0.5649,-0.181 -0.6693,-0.194 h -0.01 -0.01 -0.01 -0.1282 l 0.014,-0.162 c 0,-0.03 0.014,-0.05 0.024,-0.07 l 0.038,-0.126 -0.057,-0.108 v -0.02 h -0.01 l -0.043,-0.08 h -0.09 c -0.01,0 -0.024,0 -0.033,0 -0.052,-0.03 -0.1092,-0.06 -0.1661,-0.09 -0.1,-0.05 -0.1899,-0.09 -0.2801,-0.133 -0.024,-0.02 -0.057,-0.04 -0.081,-0.04 -0.1139,-0.06 -0.2089,-0.119 -0.2943,-0.181 -0.1567,-0.109 -0.6029,-0.199 -1.0396,-0.218 z"
-        inkscape:connector-curvature="0" />
-    <path id="Sironi-LogoR" class="logo-rosso"
+       inkscape:connector-curvature="0" />
+    <path
+       id="Sironi-LogoR"
+       class="logo-rosso"
        d="m 65.2195,188.92 -0.1005,0.05 -0.099,0.05 -0.066,0.233 -0.072,0.233 -0.038,1.058 c -0.034,0.772 -0.038,1.113 -0.029,1.292 v 0.02 0.02 c 0,0.02 0,0.04 0.018,0.05 0,0.04 0.025,0.05 0.052,0.04 l 0.018,0.02 v -0.02 c 0.025,0 0.048,-0.02 0.063,-0.05 0.018,-0.02 0.032,-0.126 0.052,-0.269 l 0.018,-0.04 v -0.05 -0.126 c 0.1238,-1.542 0.1471,-1.686 0.2333,-1.686 0.023,0 0.048,0.04 0.048,0.07 0,0.143 0.122,0.466 0.1848,0.484 l 0.052,0.02 v -0.52 -0.52 l -0.052,-0.126 c -0.029,-0.04 -0.077,-0.108 -0.1292,-0.143 v -0.02 h -0.023 z m 0.6835,0.305 v 0 l -0.1417,0.02 -0.072,0.143 -0.07,0.144 -0.02,0.699 -0.02,0.718 0.057,0.05 0.052,0.05 0.043,-0.07 c 0.02,-0.04 0.043,-0.233 0.043,-0.431 0,-0.215 0.018,-0.412 0.043,-0.448 l 0.038,-0.07 0.047,0.04 c 0.034,0.02 0.077,0.143 0.1149,0.305 l 0.057,0.251 -0.04,0.52 -0.032,0.521 0.066,-0.04 v 0 0.04 -0.04 l 0.048,-0.02 0.032,-0.359 c 0.02,-0.197 0.029,-0.664 0.049,-1.058 l 0.018,-0.718 -0.084,-0.126 -0.074,-0.125 h -0.061 -0.09 z m 0.6889,0.269 -0.095,0.04 -0.095,0.04 -0.052,0.143 c -0.081,0.251 -0.1058,0.503 -0.1058,1.292 v 0.789 0.04 c 0,0.05 0.034,0.07 0.066,0.05 l 0.018,0.02 v -0.02 c 0.018,0 0.029,-0.02 0.04,-0.04 0.018,-0.04 0.052,-0.341 0.052,-0.717 l 0.029,-0.09 -0.025,-0.05 c 0.018,-0.287 0.034,-0.538 0.052,-0.592 0.018,-0.04 0.054,-0.07 0.091,-0.07 h 0.048 l 0.036,0.251 -0.018,0.07 0.018,0.04 c 0.018,0.126 0.036,0.215 0.036,0.233 0.018,0.02 0.054,0.02 0.09,0 l 0.036,-0.04 v -0.412 c 0,-0.323 -0.018,-0.574 -0.072,-0.736 v -0.02 0 c -0.018,-0.07 -0.054,-0.107 -0.072,-0.143 z"
        inkscape:connector-curvature="0" />
   </g>
-  <g id="PadiglioneIncisione5" transform="translate(550,-200)" data-posx="550" data-posy="-200" class="floor">
-     <text id="PadiglioneIncisione5Label" class="piano label"
-        data-gref="PadiglioneIncisione5"
-        y="1065.23"
-        x="-0.665985"
-        xml:space="preserve"><tspan
-          id="PadiglioneIncisione5Text"
-          y="1065.23"
-          x="-0.665985">Padiglione incisione</tspan></text>
-    <path id="path5968" class="aula" data-use=""
+  <g
+     id="PadiglioneIncisione5"
+     transform="translate(550,-196.6)"
+     style="fill:none;stroke:#000000">
+    <text
+       id="PadiglioneIncisione5Label"
+       class="piano label"
+       data-gref="PadiglioneIncisione5"
+       y="1065.23"
+       x="-0.665985"
+       xml:space="preserve"><tspan
+         id="PadiglioneIncisione5Text"
+         y="1065.23"
+         x="-0.665985">Padiglione incisione</tspan></text>
+    <path
+       id="path5968"
+       class="aula"
        d="m 150.46,1004.29 v -22.899 h -20.791 v -3.63 h -1.698 -0.76 -10.233 -0.76 -1.698 v 3.63 H 90.654 v 45.939 h -3.241 v 10.75 h 3.241 v 2.61 h 13.879 v 4.37 h 22.415 v -4.37 h 23.506 v -23.08 z"
        inkscape:connector-curvature="0" />
-     <path id="path5972" class="aula" data-use=""
-        d="M 84.179,981.391 H 76.62 v -3.63 h -1.697 -0.76 -13.18 -0.76 -1.697 v 3.63 h -24.39 v -3.63 h -1.698 -0.76 -10.233 -0.76 -1.698 v 3.63 H 5.898 v 5.36 H 2.763 v 17.649 h -0.78 v 1.7 0.8 4.73 0.8 4.74 0.8 1.69 h 0.78 v 16.25 h 3.135 v 4.9 h 13.964 v -5.4 h 5.477 v 5.4 h 22.875 v 4.37 h 1.192 21.224 v -4.37 h 13.538 v -2.61 h 3.241 v -10.75 h -3.241 z"
-        inkscape:connector-curvature="0" />
-    <path id="path5970" class="muri"
+    <path
+       id="path5972"
+       class="aula"
+       d="M 84.179,981.391 H 76.62 v -3.63 h -1.697 -0.76 -13.18 -0.76 -1.697 v 3.63 h -24.39 v -3.63 h -1.698 -0.76 -10.233 -0.76 -1.698 v 3.63 H 5.898 v 5.36 H 2.763 v 17.649 h -0.78 v 1.7 0.8 4.73 0.8 4.74 0.8 1.69 h 0.78 v 16.25 h 3.135 v 4.9 h 13.964 v -5.4 h 5.477 v 5.4 h 22.875 v 4.37 h 1.192 21.224 v -4.37 h 13.538 v -2.61 h 3.241 v -10.75 h -3.241 z"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path5970"
+       class="muri"
        d="m 25.349,1007.32 v 7.15 h -5.477 v -7.15 z"
        inkscape:connector-curvature="0" />
-    <path id="E7-Muri" class="muri"
+    <path
+       id="E7-Muri"
+       class="muri"
        d="m 0,975.48 v 30.62 h 1.995 v -1.7 h 0.78 v -17.65 h 3.137 v -5.36 h 13.09 v -3.63 h 1.695 v -2.28 z m 32.443,0 v 2.28 h 1.7 v 3.63 h 24.391 v -3.63 h 1.695 v -2.28 z m 42.483,0 v 2.28 h 1.695 v 3.63 h 7.56 v 45.94 h 6.48 v -45.94 h 23.87 v -3.63 h 1.695 v -2.28 H 84.755 Z m 53.046,0 v 2.28 h 1.7 v 3.63 h 20.789 v 22.9 h 3.122 v 1.79 h 2.79 v -30.6 z m -108.097,31.84 v 7.15 h 5.478 v -7.15 z m 133.708,8.49 v 1.8 h -3.122 v 23.08 h -23.502 v 4.37 h -1.194 v 1.54 h 30.608 v -30.79 z M 0,1017.85 v 28.75 h 49.418 v -1.54 h -1.193 v -4.37 H 25.353 v -5.4 h -5.478 v 5.4 H 5.912 v -4.89 H 2.775 v -16.26 h -0.78 v -1.69 z m 84.181,20.23 v 2.61 H 70.642 v 4.37 h -1.194 v 1.54 h 15.307 20.98 v -1.54 h -1.193 v -4.37 H 90.661 v -2.61 z"
        inkscape:connector-curvature="0" />
   </g>
-  <g id="PadiglioneIncisione6" transform="translate(550,100)" data-posx="550" data-posy="-100" class="floor">
-     <text id="PadiglioneIncisione6Label" class="piano label"
-        data-gref="PadiglioneIncisione6"
-        y="1062.13"
-        x="1.04303"
-        xml:space="preserve"><tspan
-          id="PadiglioneIncisione6Text"
-          y="1062.13"
-          x="1.04303">Padiglione incisione</tspan></text>
-    <path id="path5994" class="aula" data-use=""
+  <g
+     id="PadiglioneIncisione6"
+     transform="translate(549.998,103.365)"
+     style="fill:none;stroke:#000000">
+    <text
+       id="PadiglioneIncisione6Label"
+       class="piano label"
+       data-gref="PadiglioneIncisione6"
+       y="1062.13"
+       x="1.04303"
+       xml:space="preserve"><tspan
+         id="PadiglioneIncisione6Text"
+         y="1062.13"
+         x="1.04303">Padiglione incisione</tspan></text>
+    <path
+       id="path5994"
+       class="aula"
        d="m 96.798,1000.67 h -29.9 v 3.55 h -0.68 v 8.66 h 0.68 v 28.19 h 29.9 z"
        inkscape:connector-curvature="0" />
-    <path id="path5996" class="aula" data-use=""
+    <path
+       id="path5996"
+       class="aula"
        d="m 66.221,1004.22 h -0.68 v -3.55 h -23.94 v -1.903 H 29.718 v 1.903 H 5.495 v 40.4 h 60.046 v -28.19 h 0.68 z"
        inkscape:connector-curvature="0" />
-    <path id="path5998" class="aula" data-use=""
+    <path
+       id="path5998"
+       class="aula"
        d="m 69.047,974.767 v -0.8 -1.7 h -3.503 v -6.739 H 19.542 v -2.75 H 7.774 v 2.75 H 5.498 v 6.739 H 1.994 v 1.7 0.8 4.74 0.8 4.741 0.8 1.699 h 3.504 v 7.71 h 23.299 v 3.6 h 12.807 0.63 v -3.6 h 23.31 v -7.71 h 3.503 v -1.699 -0.8 -4.741 -0.8 z"
        inkscape:connector-curvature="0" />
-    <path id="path6000" class="aula" data-use=""
+    <path
+       id="path6000"
+       class="aula"
        d="m 65.198,912.598 h 3.503 v -1.7 -0.7 -4.74 -0.8 -4.74 -0.7 -1.7 h -3.503 v -6.79 H 53.912 v -3.5 h -1.698 -0.76 -4.738 -0.76 -4.738 -0.76 -1.698 v 3.5 h -5.727 v -3.5 h -1.698 -0.76 -4.738 -0.76 -4.738 -0.76 -1.698 v 3.5 H 5.48 v 6.98 H 1.994 v 1.7 0.7 4.74 0.8 4.74 0.7 1.7 h 3.504 v 18.31 H 2.559 v 1.19 h -2.561 v -0.6 h -1.089 v 21.31 h 1.089 v -0.6 h 2.561 v 1.19 h 2.939 v 6.56 h 2.276 v 2.75 h 11.768 v -2.75 h 45.656 v -9.98 h 3.503 v -1.7 -0.8 -4.73 -0.8 -4.74 -0.8 -1.69 h -3.503 z"
        inkscape:connector-curvature="0" />
-    <path id="E6-Muri" class="muri"
+    <path
+       id="E6-Muri"
+       class="muri"
        d="m 0,885.167 v 14.18 h 1.994 v -1.7 h 3.504 v -6.98 H 17.9 v -3.5 h 1.7 v -2 z m 31.346,0 v 2 h 1.701 v 3.5 h 5.725 v -3.5 h 1.695 v -2 z m 20.873,0 v 2 h 1.695 v 3.5 H 65.2 v 6.79 h 3.503 v 1.7 h 1.995 v -13.99 z m 16.484,25.73 v 1.7 H 65.2 v 22.35 h 3.503 v 1.69 h 1.995 v -25.74 z M 0,911.097 v 21.2 h 2.563 v -1.19 h 2.935 v -18.31 H 1.994 v -1.7 z m 68.703,37.3 v 1.7 H 65.2 v 9.98 H 19.544 v 5.5 h 46.002 v 6.74 h 3.504 v 1.7 h 1.648 v -25.62 z M 0,952.327 v 21.69 h 1.994 v -1.7 h 3.504 v -6.74 h 2.279 v -5.5 H 5.498 v -6.56 H 2.563 v -1.19 z m 0,33.44 V 1046.6 H 102.319 V 995.176 H 70.698 v -9.409 H 69.05 v 1.689 h -3.504 v 7.72 H 42.235 v 3.6 h -0.63 v 1.904 h 23.942 v 3.55 h 1.354 v -3.55 h 29.9 v 40.4 h -29.9 v -28.19 h -1.354 v 28.19 H 5.499 v -40.4 h 24.226 v -1.904 h -0.93 v -3.6 H 5.494 v -7.72 h -3.5 v -1.689 z"
        inkscape:connector-curvature="0" />
   </g>
-  <g id="PadiglioneScultura" transform="translate(550,-500)" data-posx="550" data-posy="-500" class="floor">
-     <text id="PadiglioneSculturaLabel" class="piano label"
-        data-gref="PadiglioneScultura"
-        xml:space="preserve"
-        x="42.062"
-        y="1060.67"><tspan
-          x="42.062"
-          y="1060.67"
-          id="PadiglioneSculturaText">Padiglione scultura</tspan></text>
-    <path id="path5974" class="servizio"
+  <g
+     id="PadiglioneScultura"
+     transform="translate(550,-496.625)"
+     style="fill:none;stroke:#000000">
+    <text
+       id="PadiglioneSculturaLabel"
+       class="piano label"
+       data-gref="PadiglioneScultura"
+       xml:space="preserve"
+       x="42.062"
+       y="1060.67"><tspan
+         x="42.062"
+         y="1060.67"
+         id="PadiglioneSculturaText">Padiglione scultura</tspan></text>
+    <path
+       id="path5974"
+       class="servizio"
        d="m 78.928,1024.43 h -2.624 v -15.88 H 48.166 v 8.84 13.32 10.7 h 11.504 13.318 3.316 v -5.79 h 2.624 z"
        inkscape:connector-curvature="0" />
-    <path id="path5976" class="aula" data-use=""
+    <path
+       id="path5976"
+       class="aula"
        d="m 192.867,986.221 v -12.75 -13.32 -4.81 h -35.412 v 8.38 h -2.524 v 11.19 h 2.524 v 31.639 h 35.412 v -7.009 z"
        inkscape:connector-curvature="0" />
-    <path id="PadScul-Distribuzione" class="distribuzione"
+    <path
+       id="PadScul-Distribuzione"
+       class="distribuzione"
        d="m 152.407,974.911 h 2.524 v -11.19 h -2.524 v -17.57 h -8.04 l 0.1,-0.6 h -12.048 v 0.6 h -10.206 v 60.399 h 2.577 v 5.23 h -11.052 v -2.61 H 102.55 v 2.61 H 81.556 v 12.65 h -2.623 v 11.19 h 2.623 v 5.79 h 11.572 13.317 22.465 v -7 h 2.666 v 1 h -1.666 v 9.17 h 0.9 v 1.03 h 14.5 v -1.03 h 0.9 v -9.17 h -1.666 v -1 h 2.666 v 7 h 5.201 v -5.91 h 0.57 v -17.38 h -0.57 v -6.34 h -2.576 v -5.23 h 2.576 z"
        inkscape:connector-curvature="0" />
-    <path id="path5980" class="aula" data-use=""
+    <path
+       id="path5980"
+       class="aula"
        d="m 42.157,850.131 h -15.01 v 19.82 H 5.227 v 6.3 13.32 40.68 13.31 45.88 13.319 3.79 h 37.824 v -4.29 h 5.115 v 4.29 h 28.138 v -4.42 h 5.248 v 4.42 h 20.994 v 2.62 h 11.187 v -2.62 h 3.353 V 955.341 H 81.552 v 4.43 h -5.248 v -4.43 h -10.43 v -2.32 H 54.687 v 2.32 h -6.923 v 2.08 h -5.607 v -19.48 h 2.615 v -11.19 h -2.615 z"
        inkscape:connector-curvature="0" />
-    <path id="path5982" class="aula" data-use=""
+    <path
+       id="path5982"
+       class="aula"
        d="m 192.867,893.211 v -13.32 -10.42 h -35.412 v 5.58 h -14.208 v -0.6 h -11.188 v 0.6 h -14.973 v -5.58 h -45.16 v -2.33 H 50.564 v 2.33 h -3.178 v 11.81 h -2.684 v 14.17 h 2.684 v 7.7 h -2.684 v 14.18 h 2.684 v 9.42 h -2.614 v 11.19 h 2.614 v 12.76 h 7.301 v 2.32 h 11.187 v -2.32 h 51.212 v -5.69 h 15.329 v 0.6 h 12.047 v -0.6 h 12.993 v 5.69 h 35.412 v -4.13 -13.32 -13.86 -13.32 z"
        inkscape:connector-curvature="0" />
-    <path id="path5984" class="aula" data-use=""
+    <path
+       id="path5984"
+       class="aula"
        d="m 192.867,846.901 v -7.98 h -35.412 v 6.68 h -2.524 v 11.18 h 2.524 v 8.03 h 35.412 v -4.6 z"
        inkscape:connector-curvature="0" />
-    <path id="path5986" class="aula" data-use=""
+    <path
+       id="path5986"
+       class="aula"
        d="m 154.931,845.601 h -2.524 v -6.68 h -10.943 v -2.61 h -12 v 2.61 h -7.256 v 6.68 h -2.561 v 11.18 h 2.561 v 17.13 h 9.851 v 0.6 h 11.188 v -0.6 h 9.16 v -17.13 h 2.524 z"
        inkscape:connector-curvature="0" />
-    <path id="path5988" class="aula" data-use=""
+    <path
+       id="path5988"
+       class="aula"
        d="m 117.086,856.781 h 2.561 v -11.18 h -2.561 v -6.68 H 81.002 v 25.89 h 36.084 z"
        inkscape:connector-curvature="0" />
-    <path id="path5990" class="wc"
+    <path
+       id="path5990"
+       class="wc"
        d="m 157.453,1011.78 v 4.95 h -3.907 v 1.39 h -0.57 v 17.38 h 0.57 v 1.47 h 3.907 v 4.44 h 35.414 v -6.69 -16 -6.94 z"
        inkscape:connector-curvature="0" />
-    <use id="Wc-Logo-PA" class="logo"
+    <use
+       id="Wc-Logo-PA"
+       class="logo"
        height="100%"
        width="100%"
        transform="translate(30.8,127.0)"
        xlink:href="#Wc-Logo"
-       y="0" x="0" />
-    <path id="E5-Muri" class="muri"
+       y="0"
+       x="0" />
+    <path
+       id="E5-Muri"
+       class="muri"
        d="m 75.499,833.7 v 31.11 h -3.571 v 4.66 h 45.16 v 5.58 h 14.976 v -1.14 h -9.855 v -17.12 h -5.121 v 8.02 H 81.003 v -25.88 h 36.085 v 6.67 h 5.121 v -6.67 h 7.256 v -5.23 z m 65.965,0 v 5.23 h 10.945 v 6.67 h 5.049 v -6.67 h 35.414 v 7.96 h 3.116 v 1.8 h 2.108 V 833.7 Z M 24.608,847.86 v 16.86 H 0 v 13.32 h 2.108 v -1.79 H 5.23 v -6.3 h 21.921 v -19.82 h 15.006 v 76.62 h 5.23 v -9.42 h -2.682 v -14.18 h 2.682 v -7.7 h -2.682 v -14.17 h 2.682 v -11.81 h 3.178 v -4.66 h -3.178 v -16.95 z m 127.801,8.93 v 17.12 h -9.162 v 1.14 h 14.211 v -5.58 h 35.414 v 10.42 h 3.116 v 1.79 h 2.108 v -23.26 h -2.108 v 1.79 h -3.116 v 4.6 h -35.414 v -8.02 z M 0,887.78 v 44.26 h 2.108 v -1.79 H 5.23 V 889.57 H 2.108 v -1.79 z m 195.988,3.63 v 1.8 h -3.116 v 12.86 h 3.116 v 1.8 h 2.108 v -16.46 z m 0,26.19 v 1.79 h -3.116 v 13.86 h 3.116 v 1.79 h 2.108 V 917.6 Z M 42.157,937.94 v 19.47 h 5.607 v -2.07 h 6.925 V 950.7 H 47.387 V 937.94 Z M 0,941.77 v 49.47 h 2.108 v -1.8 H 5.23 V 943.57 H 2.108 v -1.8 z m 195.988,3 v 1.8 h -3.116 v 4.13 h -35.414 v -5.69 h -12.992 v 1.14 h 7.943 v 17.57 h 5.049 v -8.38 h 35.414 v 4.81 h 3.116 v 1.8 h 2.108 v -17.18 z m -78.9,0.2 v 5.69 H 65.877 v 4.64 h 10.428 v 4.43 h 5.251 v -4.43 h 35.532 v 51.21 h -3.353 v 5.23 h 11.053 v -5.23 h -2.579 v -60.4 h 10.207 v -1.14 z m 78.9,26.66 v 1.8 h -3.116 v 12.75 h 3.116 v 1.79 h 2.108 v -16.34 z m -43.579,3.24 v 31.64 h -2.579 v 5.23 h 2.579 v 6.34 h 1.142 v -1.39 h 3.907 v -4.95 h 35.414 v 6.94 h 3.116 v 1.79 h 2.108 V 997.7 h -2.108 v 1.8 h -3.116 v 7.01 H 157.458 V 974.87 Z M 0,1000.93 v 10.81 h 43.051 v 7.4 h 1.995 v -1.79 h 3.121 v -8.84 h 28.138 v 15.88 h 5.251 v -12.65 h 20.991 v -5.23 H 81.556 v -0.5 -3.95 h -5.251 v 4.42 H 48.281 48.167 v -4.3 h -5.116 v 4.3 H 5.229 v -3.79 H 2.108 v -1.79 z m 43.051,27.94 v 17.73 h 18.413 v -2.1 h -1.793 v -3.13 H 48.167 v -10.7 h -3.121 v -1.8 z m 152.937,4.01 v 1.8 h -3.116 v 6.69 h -35.414 v -4.44 h -3.907 v -1.47 h -1.142 v 5.91 h -5.204 v -7 h -2.661 v 1.01 h 1.664 v 9.16 h -0.89 v 2.06 H 198.1 v -13.72 z m -67.081,1.49 v 7 h -22.464 v 3.13 h -1.793 v 2.1 h 26.164 v -2.06 h -0.91 v -9.16 h 1.664 v -1.01 z m -52.602,1.21 v 5.79 h -3.317 v 3.13 h -1.794 v 2.1 h 23.725 v -2.1 h -1.793 v -3.13 h -11.57 v -5.79 z"
        inkscape:connector-curvature="0" />
   </g>
-  <g id="PiantaSeminterrato" transform="translate(50,100)" data-posx="50" data-posy="100" class="floor">
-     <text id="PiantaSeminterratoLabel" class="piano label" data-gref="PiantaSeminterrato"
-        xml:space="preserve"
-        x="-0.972"
-        y="991.63"><tspan
-          x="-0.972213"
-          y="991.633"
-          id="PiantaSeminterratoText">Pianta piano seminterrato</tspan></text>
-    <path id="S1-Aula" class="aula" data-use="Lab. Animazione e montaggio"
+  <g
+     id="PiantaSeminterrato"
+     transform="translate(50,103.365)"
+     style="fill:none;stroke:#000000">
+    <text
+       id="PiantaSeminterratoLabel"
+       class="piano label"
+       data-gref="PiantaSeminterrato"
+       xml:space="preserve"
+       x="-0.972"
+       y="991.63"><tspan
+         x="-0.972213"
+         y="991.633"
+         id="PiantaSeminterratoText">Pianta piano seminterrato</tspan></text>
+    <path
+       id="S1-Aula"
+       class="aula"
+       data-use="Lab. Animazione e montaggio"
        d="m 415.41,872.921 h -70.536 v 64.409 h 14.94 v 4.06 h 8.045 v -4.06 h 47.551 z"
        inkscape:connector-curvature="0" />
-    <path id="S2-Aula" class="aula" data-use="Lab. Editoriale"
+    <path
+       id="S2-Aula"
+       class="aula"
+       data-use="Lab. Editoriale"
        d="m 339.247,887.301 h -58.72 v 50.029 h 40.082 v 3.42 h 11.697 v -3.42 h 6.941 z"
        inkscape:connector-curvature="0" />
-    <path id="PS-WC-H" class="wc"
+    <path
+       id="PS-WC-H"
+       class="wc"
        d="m 275.738,887.301 h -33.499 v 50.029 h 19.247 v 3.16 h 0.55 v 0.4 h 7.115 v -0.4 h 3.918 v -3.17 h 2.666 z"
        inkscape:connector-curvature="0" />
-    <path id="S3-Aula" class="aula" data-use="Laboratorio Multimediale"
+    <path
+       id="S3-Aula"
+       class="aula"
+       data-use="Lab. Multimediale"
        d="M 162.446,887.301 H 82.6144 v 50.029 h 11.3569 v 4.06 h 8.9677 v -4.06 h 59.595 z"
        inkscape:connector-curvature="0" />
-    <path id="Biblioteca" class="servizio"
+    <path
+       id="Biblioteca"
+       class="servizio"
        d="M 67.8063,872.921 H 6.45128 V 937.33 H 52.6991 v 4.18 h 12.9306 v -4.18 h 11.357 v -10.2 h -9.1804 z"
        inkscape:connector-curvature="0" />
-    <path id="Biblioteca-Ingresso" class="servizio"
+    <path
+       id="Biblioteca-Ingresso"
+       class="servizio"
        d="m 79.8006,944.69 h -2.8139 v -2.17 H 65.2523 v -1.13 H 53.2524 v 1.13 H 6.45128 v 28.273 H 76.9867 v -2.16 h 2.8139 z"
        inkscape:connector-curvature="0" />
-    <path id="Pc-Logo" class="logo"
+    <path
+       id="Pc-Logo"
+       class="logo"
        d="m 90.1505,893.431 c -1.4544,0 -2.6251,1.17 -2.6251,2.62 v 5.249 c 0,1.46 1.1707,2.63 2.6251,2.63 h 7.0022 c 1.4546,0 2.6257,-1.17 2.6257,-2.63 v -5.249 c 0,-1.45 -1.1711,-2.62 -2.6257,-2.62 z m 0,1.75 h 7.0022 c 0.485,0 0.873,0.4 0.873,0.9 v 5.249 c 0,0.5 -0.388,0.9 -0.873,0.9 h -7.0022 c -0.484,0 -0.878,-0.4 -0.878,-0.9 v -5.249 c 0,-0.5 0.394,-0.9 0.878,-0.9 z m 3.4985,9.629 c -4.3692,0 -4.3718,0.9 -4.3718,0.9 0,0.9 0.873,0.9 0.873,0.9 h 7.0022 c 0.875,0 0.873,-0.9 0.873,-0.9 0,0 0,-0.9 -4.3718,-0.9 z"
        inkscape:connector-curvature="0" />
-   <text id="S1-Label" class="label"
-      y="931.81"
-      x="404.143"
-      xml:space="preserve"><tspan
-        id="tspan10230"
-        y="931.81"
-        x="404.143">S1</tspan></text>
-    <text id="S2-Label"  class="label"
+    <text
+       id="S1-Label"
+       class="label"
+       y="931.81"
+       x="404.143"
+       xml:space="preserve"><tspan
+         id="tspan10230"
+         y="931.81"
+         x="404.143">S1</tspan></text>
+    <text
+       id="S2-Label"
+       class="label"
        xml:space="preserve"
        x="327.91"
-       y="931.81"
-       ><tspan
+       y="931.81"><tspan
          x="327.91"
          y="931.81"
-         id="tspan10226"></tspan></text>
-    <text id="S3-Label"  class="label"
+         id="tspan10226" /></text>
+    <text
+       id="S3-Label"
+       class="label"
        y="931.81"
        x="151.365"
        xml:space="preserve"><tspan
          id="tspan10121"
          y="931.81"
          x="151.365">S3</tspan></text>
-    <path id="Biblioteca-Logo" class="logo"
+    <path
+       id="Biblioteca-Logo"
+       class="logo"
        d="m 21.8599,879.411 c 0.37,0 0.697,0 1.0084,0.1 0.83,0.2 1.4967,0.6 2.7666,0.6 h 0.42 v 0.4 0 8.23 0.4 1.8 0.8 h -0.844 -10.9236 -0.844 v -0.9 -1.85 -0.4 -8.22 0 -0.4 h 0.42 c 1.1401,0 1.8698,-0.3 2.7666,-0.5 0.846,-0.2 1.8589,-0.2 3.1592,0.5 0.64,-0.3 1.2116,-0.6 1.6867,-0.7 0.133,0 0.26,0 0.383,0 z m 0.281,0.8 c -0.176,-0.01 -0.359,0 -0.562,0 -0.364,0 -0.814,0.3 -1.3967,0.6 v 7.23 c 0.938,-0.6 1.8748,-0.6 2.6863,-0.4 0.537,0.1 1.0316,0.3 1.5037,0.4 v -7.29 c -0.714,-0.1 -1.2673,-0.3 -1.7135,-0.5 -0.173,0 -0.342,0 -0.517,-0.1 z m -4.7255,0 c -0.193,0 -0.382,0 -0.576,0.1 -0.483,0.1 -1.0408,0.3 -1.709,0.4 v 7.29 c 0.47,-0.1 0.957,-0.3 1.4994,-0.4 0.82,-0.2 1.7669,-0.2 2.713,0.4 v -7.26 c -0.816,-0.5 -1.4013,-0.6 -1.9277,-0.5 z m 4.2926,8.07 c -0.519,0 -1.041,0.2 -1.6555,0.8 l -0.29,0.2 -0.263,-0.2 c -0.989,-0.9 -1.7626,-0.9 -2.6595,-0.6 -0.539,0.1 -1.1039,0.4 -1.709,0.5 v 1.2 h 9.2413 v -1.15 c -0.609,-0.2 -1.1777,-0.4 -1.7135,-0.6 -0.331,0 -0.639,-0.1 -0.951,-0.1 z"
        inkscape:connector-curvature="0" />
-    <use id="Wc-Logo-SA" class="logo"
+    <use
+       id="Wc-Logo-SA"
+       class="logo"
        height="100%"
        width="100%"
        transform="translate(110.347,7.501)"
        xlink:href="#Wc-Logo"
        y="0"
        x="0" />
-    <path id="P-1-Distribuzione-9" class="distribuzione"
+    <path
+       id="P-1-Distribuzione-9"
+       class="distribuzione"
        d="m 181.28,848.93 v 91.9 H 79.6323 v 32.343 H 419.835 V 940.83 H 242.237 v -91.9 z"
        inkscape:connector-curvature="0" />
-    <path id="P-1-Muri-1" class="muri"
+    <path
+       id="P-1-Muri-1"
+       class="muri"
        d="m 199.98,848.926 v 0 h -20.355 v 9.445 h 1.995 v -1.694 h 3.633 v -2.115 h 14.727 3.437 15.141 6.444 11.607 v 82.761 h -8.734 v 7.355 h 6.346 v -2.17 h 27.265 v -0.872 h 0.553 v -1.138 h -0.553 v -3.175 h -19.25 v -50.032 h 2.439 v 0 h 11.71 v 0 h 4.775 v 0 h 11.709 v 0 h 2.868 v 50.032 h -2.664 v 3.175 h -3.54 -0.379 v 1.138 h 0.379 v 0.872 h 51.075 v -5.185 H 280.529 V 887.29 h 7.405 v 0 h 15.14 v 0 h 13.216 v 0 h 15.139 v 0 h 7.818 v 50.033 h -6.94 v 5.185 h 6.94 v 2.17 h 5.628 v -2.17 h 15.494 v -1.137 h -0.553 v -4.048 h -14.941 v -64.4 h 70.532 v 11.695 15.161 6.111 15.161 8.395 7.877 h -47.545 v 4.048 h -0.379 v 1.137 h 47.924 v 6.725 h 3.635 v 2.17 h 1.993 v -21.957 -10.115 -11.747 -9.499 -11.747 -12.463 h 0.761 v -7.354 h -7.339 v 0.767 h -75.21 v 14.359 h -97.011 v -32.721 h -17.234 v 0 z M 0.066145,866.523 v 7.354 h 0.759646 v 12.463 11.747 9.499 11.747 31.59 11.75 8.12 4.95 H 421.035 v -13.2 h -1.993 v 1.82 h -3.635 v 6.43 h -70.532 v -2.17 h -5.628 v 2.17 H 234.221 v -2.17 h -5.627 v 2.17 h -36.127 v -2.17 h -5.628 v 2.17 H 82.6141 v -2.17 h -5.6276 v 2.17 H 6.45335 v 0 -6.42 -15.14 -6.718 H 53.2515 v -1.137 H 52.6986 V 937.33 H 6.45335 v -16.272 -15.161 -6.111 -15.161 -10.745 -0.95 H 67.8088 v 54.213 h 9.1777 V 937.33 H 65.628 v 4.048 h -0.3772 v 1.137 h 11.7357 v 2.17 h 5.6276 v -2.17 h 11.7357 v -1.137 H 93.9726 V 937.33 H 82.6141 v -49.951 h 79.8339 l 0.09,49.951 H 102.94 v 4.048 h -0.552 v 1.137 h 64.692 v -5.185 h -3.018 v -18.442 h 15.565 v 18.442 h -0.78 v 5.185 h 7.994 v 2.17 h 6.434 v -7.355 h -8.02 v -65.511 h -3.633 v -1.694 h -1.995 v 11.537 h -2.438 v 0 H 82.6141 v -14.36 H 7.4042 v -0.767 z M 198.378,869.169 c -1.598,0 -2.967,1.455 -2.966,3.042 v 12.436 h 5.266 V 870.57 h 5.655 l 1.08,-1.401 h -6.735 z m -2.718,41.856 v 5.212 h 5.204 v -5.212 z"
        inkscape:connector-curvature="0" />
-    <path id="Caffe-2" class="caffe"
+    <path
+       id="Caffe-2"
+       class="caffe"
        d="m 221.647,857.89 v 44.36 h 14.691 v -44.36 z"
        inkscape:connector-curvature="0" />
-    <g id="PS-ScalaRampa1-7" class="scala"
-       transform="matrix(10,0,0,10,-1.25,-1912)" >
+    <g
+       id="PS-ScalaRampa1-7"
+       class="scala"
+       transform="matrix(10,0,0,10,-1.25,-1912)">
       <path
          d="M 19.6882,279.232 H 18.6471"
          id="path4193-0"
@@ -355,29 +458,39 @@
          d="m 18.6519,283.605 h 1.0363 v -4.956"
          id="path4223-2"
          inkscape:connector-curvature="0" />
-      <path id="path14780-3" class="freccia"
+      <path
+         id="path14780-3"
+         class="freccia"
          d="m 19.1683,283.609 v -5.153"
          inkscape:connector-curvature="0" />
-      <use id="use15417-7" xlink:href="#path4193-0"
+      <use
+         id="use15417-7"
+         xlink:href="#path4193-0"
          height="100%"
          width="100%"
          transform="translate(4.49e-6,-0.28525)"
          y="0"
          x="0" />
-      <use id="use15419-5" xlink:href="#use15417-7"
+      <use
+         id="use15419-5"
+         xlink:href="#use15417-7"
          height="100%"
          width="100%"
          transform="translate(4.49e-6,-0.28525)"
          y="0"
          x="0" />
-      <use id="use15421-9" xlink:href="#use15419-5"
+      <use
+         id="use15421-9"
+         xlink:href="#use15419-5"
          height="100%"
          width="100%"
          transform="translate(4.49e-6,-0.26631)"
          y="0"
          x="0" />
     </g>
-    <g id="PS-ScalaRampa2-2" class="scala"
+    <g
+       id="PS-ScalaRampa2-2"
+       class="scala"
        transform="matrix(9.99996,0,0,9.99996,-1.25646,-1911.88)">
       <path
          d="m 19.6665,278.411 c -10e-5,-0.16 0.1368,-0.306 0.2966,-0.306 h 0.23 0.6578 l 1.232,-1.46 h -3.4324 v 1.758"
@@ -463,13 +576,19 @@
          id="path15562-5"
          inkscape:connector-curvature="0" />
     </g>
-    <path id="Caffe-Logo-0" class="logo"
+    <path
+       id="Caffe-Logo-0"
+       class="logo"
        d="m 228.378,874.19 c 0.52,0.7 1.431,2.46 0.99,3.44 -0.44,1 -1.033,0.5 -0.82,2.98 -0.87,-0.7 -0.87,-2.38 -0.31,-3.18 0.55,-0.8 0.19,-2.42 0.14,-3.24 z m 1.55,2.09 c 1.291,1.26 0.79,2.22 0.31,2.76 -0.47,0.5 -0.7,0.4 -0.89,1.69 -0.28,-0.5 -0.44,-1.35 0.2,-2.1 0.63,-0.8 -0.1,-2.35 0.38,-2.35 z m -1.432,5.14 c 2.055,0 3.804,0 3.721,0.4 2.4,-0.6 2.278,3.54 -0.93,2.45 -0.28,0.3 -0.62,0.6 -0.99,0.8 h 2.687 c 0,0 0.1,0 -0.33,0.3 -0.41,0.2 -2.32,0.5 -2.32,0.5 h -3.555 c 0,0 -1.996,-0.3 -2.398,-0.5 -0.4,-0.3 -0.25,-0.3 -0.25,-0.3 h 2.589 c 1.313,0 -1.954,-1.82 -1.954,-3.22 0,-0.5 1.666,-0.4 3.721,-0.4 z m 4.279,1 c -0.16,0 -0.36,0 -0.6,0 -0.11,0.4 -0.44,1.11 -0.55,1.36 1.547,0.7 2.29,-1.22 1.158,-1.4 z"
        inkscape:connector-curvature="0" />
-    <path id="P-1-Ascensore" class="ascensore"
+    <path
+       id="P-1-Ascensore"
+       class="ascensore"
        d="m 164.962,919.76 h 14.092 v 15.26 1.81 h -0.687 -7.224 v -0.7 h 6.687 v -1.11 h 0.54 v -14.57 h -12.718 v 14.57 h 7.932 v 0.7 h -7.395 v 1.11 h -1.229 v -1.81 0 z m 1.173,1.15 h 11.741 v 13.65 h -11.741 z"
        inkscape:connector-curvature="0" />
-    <g id="PS-ScalaEsterna" class="scala"
+    <g
+       id="PS-ScalaEsterna"
+       class="scala"
        transform="matrix(9.99996,0,0,9.99996,-563.135,116.363)">
       <path
          d="m 218.004,387.426 v 4.594 h 7.293 l -3.043,-4.293 h -2.674 v -0.301 z m 20.98,0 v 0.301 h -2.673 l -3.043,4.293 h 7.293 v -4.594 z"
@@ -551,7 +670,9 @@
          y="0"
          x="0" />
     </g>
-    <g id="PS-ScalaRampa" class="scala"
+    <g
+       id="PS-ScalaRampa"
+       class="scala"
        transform="matrix(9.99996,0,0,9.99996,-1.25644,-1911.88)">
       <path
          id="path14718"
@@ -632,8 +753,10 @@
          y="0"
          x="0" />
     </g>
-    <g id="PS-ScalaAntincendio" class="scala"
-       transform="matrix(9.99996,0,0,9.99996,-563.16,116.523)" >
+    <g
+       id="PS-ScalaAntincendio"
+       class="scala"
+       transform="matrix(9.99996,0,0,9.99996,-563.16,116.523)">
       <path
          d="m 82.4317,75.2255 h 0.354 V 74.014 h 1.2304 v 2.4054 h -2.1515 z"
          id="path15518"
@@ -692,7 +815,8 @@
          y="0"
          x="0" />
     </g>
-    <use id="usePS-ScalaEsterna"
+    <use
+       id="usePS-ScalaEsterna"
        class="scala"
        height="100%"
        width="100%"
@@ -701,83 +825,127 @@
        y="0"
        x="0" />
   </g>
-  <g id="PiantaPianoTerra" transform="translate(50,-200)" data-posx="50" data-posy="-200" class="floor">
-    <text id="PiantaPianoTerraLabel" class="piano label"
-        data-gref="PiantaPianoTerra"
-        y="1061.27"
-        x="-1.03836"
-        xml:space="preserve"><tspan
-          id="PiantaPianoTerraText"
-          y="1061.27"
-          x="-1.03836">Pianta piano terra</tspan></text>
-    <path id="Direzione-Aula" class="servizio"
+  <g
+     id="PiantaPianoTerra"
+     transform="translate(50,-196.625)"
+     style="fill:none;stroke:#000000">
+    <text
+       id="PiantaPianoTerraLabel"
+       class="piano label"
+       data-gref="PiantaPianoTerra"
+       y="1061.27"
+       x="-1.03836"
+       xml:space="preserve"><tspan
+         id="PiantaPianoTerraText"
+         y="1061.27"
+         x="-1.03836">Pianta piano terra</tspan></text>
+    <path
+       id="Direzione-Aula"
+       class="servizio"
        d="M 76.9206,976.048 H 65.4762 v -2.59 H 53.6459 v 2.59 H 6.38513 v 16.63 H 2.75378 v 1.7 0.8 4.73 0.802 4.74 0.8 1.69 h 3.63135 v 5.73 H 2.75378 v 1.69 0.8 4.74 0.8 4.74 0.8 1.7 h 3.63135 v 11.54 H 17.6501 v 3.63 h 1.6978 0.757 4.7379 0.757 4.7379 0.757 1.6978 v -3.63 h 17.3439 v 3.63 h 1.6978 0.757 4.7379 0.7569 4.7379 0.757 1.6978 v -3.63 h 11.6407 z"
        inkscape:connector-curvature="0" />
-    <path id="DirezioneRagioneriaBiblio-Aula" class="servizio"
+    <path
+       id="DirezioneRagioneriaBiblio-Aula"
+       class="servizio"
        d="m 119.748,976.048 h -8.571 v -2.59 H 99.346 v 2.59 H 82.5483 v 50.242 h 12.6754 v 3.63 h 1.6978 0.757 4.7375 0.76 4.738 0.76 1.698 v -3.63 h 9.381 z"
        inkscape:connector-curvature="0" />
-    <path id="DirezioneAmministrativa-Aula" class="servizio"
+    <path
+       id="DirezioneAmministrativa-Aula"
+       class="servizio"
        d="m 162.233,976.048 h -9.102 v -2.59 h -11.83 v 2.59 h -19.187 v 50.242 h 12.445 v 3.63 h 1.698 0.76 4.738 0.76 4.738 0.76 1.698 v -3.63 h 12.531 z"
        inkscape:connector-curvature="0" />
-    <path id="SegreteriaStudenti-Aula" class="servizio"
+    <path
+       id="SegreteriaStudenti-Aula"
+       class="servizio"
        d="M 299.888,976.048 H 281.28 v -2.59 h -11.83 v 2.59 h -10.826 v 50.242 h 12.531 v 3.63 h 1.698 0.76 4.738 0.76 4.738 0.76 1.698 v -3.63 h 13.59 z"
        inkscape:connector-curvature="0" />
-    <path id="AulaX" class="servizio"
+    <path
+       id="AulaX"
+       class="servizio"
        d="m 339.181,976.048 h -15.936 v -2.59 h -11.83 v 2.59 h -9.634 v 50.242 h 8.71 v 3.63 h 1.698 0.76 4.738 0.76 4.738 0.76 1.698 v -3.63 h 13.547 z"
        inkscape:connector-curvature="0" />
-    <path id="T1-Aula" class="aula" data-use="Laboratorio Multimediale"
+    <path
+       id="T1-Aula"
+       class="aula"
        d="m 415.344,976.048 h -46.902 v -2.59 h -11.83 v 2.59 h -11.804 v 64.182 h 10.77 v 3.63 h 1.697 0.76 4.737 0.76 4.738 0.76 1.697 v -3.63 h 17.345 v 3.63 h 1.697 0.76 4.738 0.76 4.738 0.76 1.698 v -3.63 h 12.136 v -11.54 h 3.631 v -1.7 -0.8 -4.73 -0.8 -4.74 -0.8 -1.69 h -3.631 v -5.73 h 3.631 v -1.69 -0.8 -4.74 -0.802 -4.73 -0.8 -1.7 h -3.631 z"
        inkscape:connector-curvature="0" />
-    <path id="TX-Aula" class="aula" data-use=""
+    <path
+       id="TX-Aula"
+       class="aula"
        d="m 418.975,957.248 v -0.8 -4.74 -0.8 -1.699 h -3.631 v -6.71 h -43.368 v 8.219 h -0.57 v 11.69 h 0.57 v 8.36 h 43.368 v -6.42 h 3.631 v -1.7 -0.8 z"
        inkscape:connector-curvature="0" />
-    <path id="PT-WC-D" class="wc"
+    <path
+       id="PT-WC-D"
+       class="wc"
        d="m 339.181,887.369 h -7.817 v -3.63 h -1.698 -0.757 -4.738 -0.757 -4.738 -0.757 -1.698 v 3.63 h -1.475 v 31.7 h 10.068 v 1.14 h -10.068 v 17.19 h 1.933 v 2.59 h 11.769 v -2.59 h 10.733 v -17.19 h -7.253 v -1.14 h 7.253 z"
        inkscape:connector-curvature="0" />
-    <path id="SegreteriaDocenti-Aula" class="servizio"
+    <path
+       id="SegreteriaDocenti-Aula"
+       class="servizio"
        d="m 313.61,887.369 h -10.602 v -3.63 h -1.698 -0.76 -4.738 -0.76 -4.737 -0.76 -1.697 v 3.63 h -12.28 v 50.03 h 24.096 v 2.59 h 11.836 v -2.59 h 2.093 z"
        inkscape:connector-curvature="0" />
-    <path id="PT-WC-S" class="wc"
+    <path
+       id="PT-WC-S"
+       class="wc"
        d="m 274.449,887.369 h -1.646 v -3.63 h -1.698 -0.76 -6.799 -0.76 -1.698 v 3.63 h -2.062 v 25.29 h 7.429 v 1.13 h -2.529 v 12.13 h -5.141 v 11.48 h 7.195 0.55 v 1.13 h -0.41 v 1.46 h 8.045 v -1.46 h -0.52 v -1.13 h 0.8 v -23.61 h -0.88 v -1.13 h 0.88 z"
        inkscape:connector-curvature="0" />
-    <path id="PT-WC-P" class="wc"
+    <path
+       id="PT-WC-P"
+       class="wc"
        d="m 257.89,887.369 h -1.574 v -3.63 h -1.697 -0.759 -6.799 -0.76 -1.697 v 3.63 h -2.436 v 25.29 h 0.93 v 1.13 h -0.93 v 23.61 h 7.231 0.55 v 1.13 h -0.55 v 1.46 h 8.043 v -1.46 h -0.38 v -1.13 h 0.58 v -12.61 h 5.142 v -11 h -12.576 v -1.13 h 7.675 z"
        inkscape:connector-curvature="0" />
-    <path id="PT-WC-H" class="wc"
+    <path
+       id="PT-WC-H"
+       class="wc"
        d="m 161.967,887.369 h -1.332 v -3.63 h -1.698 -0.76 -6.799 -0.76 -1.698 v 3.63 h -13.041 v 40.08 h -0.57 v 7.13 h 0.57 v 2.82 h 8.267 v 2.59 h 11.69 v -2.59 h 6.125 z"
        inkscape:connector-curvature="0" />
-    <path id="UfficioStipendiPersonale-Aula"
+    <path
+       id="UfficioStipendiPersonale-Aula"
        class="servizio"
        d="m 76.9206,872.989 h -27.781 v -3.63 h -1.6978 -0.7571 -4.738 -0.7571 -4.738 -0.7571 -1.6978 v 3.63 H 6.38513 v 11.71 H 2.75378 v 1.7 0.8 4.74 0.7 4.74 0.8 1.7 h 3.63135 v 6.12 H 2.75378 v 1.7 0.8 4.74 0.8 4.74 0.8 1.7 h 3.63135 v 16.28 H 53.2482 v 2.59 h 11.8303 v -2.59 h 11.8421 v -4.16 h 4.0582 v -11.69 h -4.0582 z"
        inkscape:connector-curvature="0" />
-    <path id="UfficioAcquisti-Aula" class="servizio"
+    <path
+       id="UfficioAcquisti-Aula"
+       class="servizio"
        d="m 2.75467,949.298 h 3.63284 v -6.709 H 46.3385 v 2.53 h 0.823 v 11.779 h -0.777 v 13.96 H 6.38751 v -6.42 H 2.75467 Z"
        inkscape:connector-curvature="0" />
-    <path id="Vice-Direzione-Aula" class="servizio"
+    <path
+       id="Vice-Direzione-Aula"
+       class="servizio"
        d="m 134.749,887.369 h -0.88 v -3.63 h -1.698 -0.76 -4.738 -0.76 -4.738 -0.76 -1.698 v 3.63 h -13.21 v -3.63 h -1.697 -0.758 -4.7374 -0.7572 -4.7379 -0.7572 -1.6978 v 3.63 h -7.8162 v 50.03 h 10.7649 v 2.59 h 11.8308 v -2.59 h 29.605 v -2.82 h 0.57 v -7.13 h -0.57 z"
        inkscape:connector-curvature="0" />
-    <path id="Wc-Logo" class="logo"
+    <path
+       id="Wc-Logo"
+       class="logo"
        d="m 145.451,892.579 c 0.65,0 1.178,0.5 1.178,1.17 0,0.7 -0.53,1.18 -1.178,1.18 -0.65,0 -1.179,-0.5 -1.179,-1.18 0,-0.6 0.53,-1.17 1.179,-1.17 z m 6.862,0 c 0.65,0 1.179,0.5 1.179,1.17 0,0.7 -0.53,1.18 -1.179,1.18 -0.65,0 -1.178,-0.5 -1.178,-1.18 0,-0.6 0.53,-1.17 1.178,-1.17 z m -7.86,2.6 h 1.954 c 0.41,0 0.74,0.2 0.95,0.5 0.2,0.2 0.32,0.5 0.38,0.7 l 0.96,3.32 c 0.18,0.6 -0.75,0.9 -0.93,0.3 l -0.76,-2.64 v 0.9 l 1.209,3.87 h -1.214 l -0.01,3.82 c 0,0.4 -0.32,0.7 -0.7,0.7 -0.38,0 -0.69,-0.3 -0.69,-0.7 v -3.82 h -0.33 v 3.82 c 0,0.4 -0.32,0.7 -0.7,0.7 -0.38,0 -0.69,-0.3 -0.7,-0.7 v -3.82 h -1.214 l 1.209,-3.87 v -0.9 l -0.76,2.65 c -0.18,0.6 -1.11,0.3 -0.92,-0.3 l 0.96,-3.32 c 0.1,-0.2 0.18,-0.5 0.38,-0.7 0.2,-0.2 0.53,-0.5 0.94,-0.5 z m 6.439,0 h 2.801 c 0.4,0 0.78,0.1 1.044,0.4 0.27,0.3 0.4,0.6 0.4,1 v 3.66 c 0,0.7 -1.009,0.7 -1.008,0 v -3.2 h -0.27 v 8.84 c 0,0.4 -0.32,0.7 -0.7,0.7 -0.38,0 -0.69,-0.3 -0.7,-0.7 v -5.08 0 h -0.26 v 0 5.08 c 0,0.4 -0.32,0.7 -0.7,0.7 -0.38,0 -0.69,-0.3 -0.7,-0.7 l -0.01,-8.84 h -0.27 v 3.2 c 0,0.7 -1.009,0.7 -1.007,0 v -3.66 c 0,-0.4 0.14,-0.7 0.4,-1 0.27,-0.3 0.64,-0.4 1.038,-0.4 z"
        inkscape:connector-curvature="0" />
-    <text id="SegreteriaStudentiLabel" class="label"
+    <text
+       id="SegreteriaStudentiLabel"
+       class="label"
        y="1011.57"
        x="294.948"
-       xml:space="preserve"><tspan id="SegreteriaStudentiLabelText"
+       xml:space="preserve"><tspan
+         id="SegreteriaStudentiLabelText"
          y="1011.57"
          x="294.948">Segreteria</tspan><tspan
          id="tspan10234"
          y="1020.9"
          x="294.948">Studenti</tspan></text>
-    <text id="SegreteriaDocentiLabel" class="label"
+    <text
+       id="SegreteriaDocentiLabel"
+       class="label"
        xml:space="preserve"
        x="308.67"
-       y="922.738" ><tspan id="SegreteriaDocentiText"
+       y="922.738"><tspan
+         id="SegreteriaDocentiText"
          x="308.67"
          y="922.738">Segreteria</tspan><tspan
          x="308.67"
          y="932.067"
          id="SegreteriaDocentiText2">Docenti</tspan></text>
-    <text id="UfficioStipendiLabel" class="label"
+    <text
+       id="UfficioStipendiLabel"
+       class="label"
        y="922.738"
        x="60.2014"
        xml:space="preserve"><tspan
@@ -787,130 +955,174 @@
          id="tspan10252"
          y="932.067"
          x="60.2014">e personale</tspan></text>
-    <text id="UfficioAcquistiLabel" class="label"
+    <text
+       id="UfficioAcquistiLabel"
+       class="label"
        xml:space="preserve"
        x="41.126"
-       y="955.959" ><tspan
+       y="955.959"><tspan
          id="UfficioAcquistiText"
          x="41.126"
          y="955.959">Ufficio</tspan><tspan
          x="41.126"
          y="965.287"
          id="UfficioAcquistiText2">acquisti</tspan></text>
-    <text id="DirezioneLabel" class="label"
+    <text
+       id="DirezioneLabel"
+       class="label"
        y="1034.76"
        x="71.8529"
        xml:space="preserve"><tspan
          id="DirezioneText"
          y="1034.76"
          x="71.8529">Direzione</tspan></text>
-    <text id="DirezioneAmmLabel" class="label"
+    <text
+       id="DirezioneAmmLabel"
+       class="label"
        xml:space="preserve"
        x="157.165"
-       y="1011.44" ><tspan id="DirezioneAmmText"
-         x="157.165"
-         y="1011.44" >Direzione</tspan>
-         <tspan id="DirezioneAmmText2"
-         x="157.165"
-         y="1020.77">ammin.</tspan></text>
-    <text id="DirezioneRagioneriaLabel" class="label"
+       y="1011.44"><tspan
+   id="DirezioneAmmText"
+   x="157.165"
+   y="1011.44">Direzione</tspan>
+         <tspan
+   id="DirezioneAmmText2"
+   x="157.165"
+   y="1020.77">ammin.</tspan></text>
+    <text
+       id="DirezioneRagioneriaLabel"
+       class="label"
        y="1001.73"
        x="114.68"
        xml:space="preserve">
-         <tspan id="DirezioneRagioneriaText"
-         y="1001.73"
-         x="114.68">Direzione</tspan>
-         <tspan id="DirezioneRagioneriaText2"
-         y="1011.06"
-         x="114.68">ragioneria</tspan>
-         <tspan id="DirezioneRagioneriaText3"
-         y="1020.39"
-         x="114.68">e bibliot.</tspan></text>
-    <text id="T1Label" class="label"
+         <tspan
+   id="DirezioneRagioneriaText"
+   y="1001.73"
+   x="114.68">Direzione</tspan>
+         <tspan
+   id="DirezioneRagioneriaText2"
+   y="1011.06"
+   x="114.68">ragioneria</tspan>
+         <tspan
+   id="DirezioneRagioneriaText3"
+   y="1020.39"
+   x="114.68">e bibliot.</tspan></text>
+    <text
+       id="T1Label"
+       class="label"
        xml:space="preserve"
        x="410.076"
-       y="1034.6" ><tspan
+       y="1034.6"><tspan
          x="410.076"
          y="1034.6"
          id="tspan10292">T1</tspan></text>
-    <path id="T2-Aula" class="aula"  data-use=""
+    <path
+       id="T2-Aula"
        d="m 418.975,898.149 v -0.8 -4.74 -0.7 -4.74 -0.8 -1.7 h -3.631 v -11.71 h -27.612 v -3.63 h -1.697 -0.76 -4.738 -0.76 -4.738 -0.76 -1.698 v 3.63 H 344.8 v 64.41 h 11.302 v 2.6 h 11.722 v -2.6 h 47.512 v -16.28 h 3.631 v -1.7 -0.8 -4.73 -0.8 -4.74 -0.8 -1.69 h -3.631 v -6.13 h 3.631 z"
+       class="aula"
        inkscape:connector-curvature="0" />
-    <text id="T2-Testo" class="label"
+    <text
+       id="T2-Testo"
+       class="label"
        y="929.918"
        x="410.076"
        xml:space="preserve"><tspan
          id="tspan10298"
          y="929.918"
          x="410.076">T2</tspan></text>
-    <use id="Wc-Logo-T1P" class="logo"
+    <use
+       id="Wc-Logo-T1P"
+       class="logo"
        height="100%"
        width="100%"
        transform="translate(101.099)"
        xlink:href="#Wc-Logo"
        y="0"
        x="0" />
-    <use id="Wc-Logo-T1S" class="logo"
+    <use
+       id="Wc-Logo-T1S"
+       class="logo"
        height="100%"
        width="100%"
        transform="translate(117.912)"
        xlink:href="#Wc-Logo"
        y="0"
        x="0" />
-    <use id="Wc-Logo-T1D" class="logo"
+    <use
+       id="Wc-Logo-T1D"
+       class="logo"
        height="100%"
        width="100%"
        transform="translate(178.903)"
        xlink:href="#Wc-Logo"
        y="0"
        x="0" />
-    <text id="text30451"
+    <text
+       id="text30451"
        xml:space="preserve"
        x="410.076"
-       y="964.998" ><tspan
+       y="964.998"><tspan
          x="410.076"
          y="964.998"
          id="tspan30449">TX</tspan></text>
-    <use id="use30453" xlink:href="#Pc-Logo"
+    <use
+       id="use30453"
+       xlink:href="#Pc-Logo"
        class="logo"
        height="100%"
        width="100%"
        transform="translate(262.575,88.248)"
        y="0"
        x="0" />
-    <text id="Vice-direzione"
+    <text
+       id="Vice-direzione"
        xml:space="preserve"
        x="130.084"
-       y="932.149" ><tspan
+       y="932.149"><tspan
          x="130.084"
          y="932.149"
          id="tspan30477">Vice direzione</tspan></text>
-    <path id="path11686" class="logo"
+    <path
+       id="path11686"
+       class="logo"
        d="m 360.71,877.479 c -4.066,0 -8.012,2.15 -10.19,5.92 v 0 0 c -0.1,0.2 -0.19,0.3 -0.28,0.5 l -0.23,0.5 8.33,4.81 0.28,-0.5 c 0.7,-1.21 2.243,-1.63 3.46,-0.9 0.1,0 0.11,0 0.16,0.1 0.31,0.2 0.57,0.5 0.76,0.8 l 0.28,0.5 6.34,-3.66 v 0 l 1.958,-1.13 -0.24,-0.5 c -1.019,-2.01 -2.591,-3.68 -4.527,-4.83 v 0 h -0.1 c -1.77,-1.02 -3.695,-1.53 -5.606,-1.58 -0.13,0 -0.26,0 -0.39,0 z m 0,1.12 c 0.12,0 0.24,0 0.36,0 1.725,0 3.465,0.5 5.067,1.43 v 0 c 1.64,0.9 2.991,2.32 3.929,3.96 l -0.97,0.6 c -0.84,-1.47 -2.055,-2.69 -3.526,-3.54 l -0.31,-0.2 v 0 c -1.342,-0.7 -2.781,-1.08 -4.212,-1.11 -3.403,0 -6.749,1.64 -8.568,4.79 v 0 l -0.98,-0.6 c 0,0 0,0 0,0 1.975,-3.41 5.538,-5.33 9.214,-5.36 z m 0,2.26 c 0.1,0 0.19,0 0.28,0 1.364,0 2.74,0.4 4.007,1.14 v 0 c 1.296,0.7 2.348,1.84 3.088,3.13 l -0.96,0.6 c -0.64,-1.13 -1.57,-2.06 -2.697,-2.72 v 0 h -0.1 v 0 c -1.068,-0.6 -2.224,-0.9 -3.373,-0.9 -2.602,0 -5.162,1.26 -6.552,3.66 v 0 l -0.98,-0.6 c 0,0 0,0 0,0 1.559,-2.7 4.372,-4.22 7.274,-4.24 z m 0,2.26 c 0.1,0 0.14,0 0.21,0 1,0 2.009,0.3 2.939,0.8 v 0 c 0.95,0.6 1.725,1.36 2.268,2.31 l -2.497,1.44 c -0.25,-0.3 -0.54,-0.6 -0.87,-0.8 0,0 0,0 0,0 0,0 -0.1,0 -0.13,0 v 0 0 c -1.578,-0.9 -3.559,-0.5 -4.67,0.9 l -2.568,-1.48 c 0,0 0,0 0,0 1.144,-1.99 3.206,-3.1 5.334,-3.11 z"
        inkscape:connector-curvature="0" />
-    <text id="IngressoViaDante"
+    <text
+       id="IngressoViaDante"
        y="1057.42"
        x="239.001"
        xml:space="preserve"><tspan
          id="tspan10357"
          y="1057.42"
          x="239.001">Ingresso Via Dante 4</tspan></text>
-    <path id="P0-Distribuzione" class="distribuzione"
+    <path
+       id="P0-Distribuzione"
+       class="distribuzione"
        d="m 179.56,848.998 v 90.79 H 47.0398 v 36.129 H 371.581 v -36.129 h -129.41 v -90.79 z"
        inkscape:connector-curvature="0" />
-    <path id="P0-Muri" class="muri"
+    <path
+       id="P0-Muri"
+       class="muri"
        d="m 179.559,848.996 v 9.448 h 1.995 v -1.696 h 3.633 v -2.125 h 18.164 v 0 h 15.141 v 0 h 18.051 v 2.17 12.435 h -3.571 v 1.421 h 3.571 v 11.078 55.676 h -8.734 v 5.194 h 0.719 v 2.166 h 5.627 v -2.166 h 15.25 v -4.056 h 0.553 v -1.138 h -0.553 -7.235 V 913.8 h 0.93 v -1.138 h -0.93 v -25.286 h 2.439 v -0.02 h 11.71 v 0.02 h 1.571 v 25.286 h -7.674 v 1.138 h 12.573 v 10.996 h -5.136 v 12.608 h -0.584 v 1.137 h 0.377 v 4.056 h 8.681 v -4.056 h 0.408 v -1.137 h -0.553 -7.198 v -11.476 h 5.142 V 913.8 h 2.532 v -1.138 h -7.431 v -25.286 h 2.067 v -0.02 h 11.709 v 0.02 h 1.649 v 25.286 h -0.884 v 1.138 h 0.884 v 23.604 h -0.805 v 1.137 h 0.527 v 4.056 h 25.508 v -5.194 h -24.099 v -50.027 h 12.285 v -0.02 h 15.14 v 0.02 h 10.604 v 50.028 h -2.093 v 5.193 h 5.163 v -5.193 h -1.937 v -17.193 h 10.072 v -1.136 h -10.072 v -31.699 h 1.479 v -0.02 h 15.139 v 0.02 h 7.818 v 31.699 h -7.255 v 1.136 h 7.255 v 17.193 H 328.45 v 5.193 h 10.731 v 2.166 h 5.628 v -2.166 h 11.303 v -5.193 h -11.303 v -64.408 h 27.781 v -3.633 h 1.696 v -1.994 h -35.105 v 14.358 h -94.572 v 0.02 h -2.439 v -0.02 -14.911 -8.322 -3.876 -5.622 h -25.378 v 0 h -11.746 v 0 z M -1e-6,866.604 v 7.337 h 0.759646 v 12.453 11.75 9.525 11.745 31.575 11.751 31.633 11.747 9.12 11.75 12.28 H -1e-6 v 7.33 H 7.33805 v -0.74 H 19.3477 v 0 h 44.235 v 0 h 12.3869 v 0.74 h 7.338 v -7.33 H 82.548 v -7.8 h 4.2995 v 0.1 h 75.3845 v 1.26 h -0.945 v 7.84 h 6.831 v -0.61 c 3.678,0.27 3.673,-6.11 0,-5.92 v -58.075 h 1.98 v -2.27 h -1.98 v -2.924 h -14.985 v 5.194 h 9.099 v 50.225 h -40.115 v -50.225 h 19.182 v -5.194 h -30.122 v 5.194 h 8.573 v 50.225 H 86.8475 v 0 H 82.548 v -50.233 h 16.8 v -5.194 h -16.8 v -2.167 h -5.6276 v 2.167 H 65.4741 v 5.194 h 11.4463 v 64.173 H 6.3872 v -11.53 -15.15 -5.72 -15.139 -16.629 h 47.2582 v -5.194 h -5.6896 v -13.959 h -1.571 v 13.959 H 6.3872 v -6.419 -15.142 -6.707 h 39.9511 v 2.532 h 1.6692 V 942.6 h 5.2399 v -5.194 H 6.3872 v -16.282 -15.142 -6.128 -15.141 -10.772 -0.943 H 33.998 v -3.632 h 1.695 v -1.995 H 7.33805 v -0.753 z m 414.391001,0 v 0.753 h -28.355 v 1.995 h 1.696 v 3.632 h 27.609 v 0.943 10.772 15.141 6.128 15.142 16.282 H 367.83 v 5.194 h 3.008 v 8.218 h 1.138 v -8.218 h 43.365 v 6.707 15.142 6.419 h -43.365 v -8.361 h -1.138 v 8.361 h -2.396 v 5.194 h 46.899 v 16.629 15.143 5.72 15.14 10.58 0.97 h -0.95 v 0 h -69.582 v -64.174 h 11.803 v -5.194 h -11.803 v -2.304 h -5.628 v 2.304 h -15.936 v 5.194 h 15.936 v 50.224 h -37.396 v -50.229 h 9.631 v -5.195 H 281.28 v 5.195 h 18.608 v 50.229 h -41.264 v -50.23 h 10.826 v -5.194 h -16.712 v 2.924 h -1.974 v 2.271 h 1.974 v 58.069 c -3.678,-0.18 -3.678,6.09 0,5.93 v 0.61 h 6.832 v -7.84 h -0.946 v -1.34 h 14.232 v 0 h 11.745 v 0 h 27.59 v 0 h 11.748 v 0 h 15.242 v 7.8 h -0.759 v 7.32 h 7.339 v -0.74 h 11.512 v 0 h 44.235 v 0 h 12.883 v 0.74 h 7.339 v -7.32 h -0.761 v 0 -12.28 -11.74 -9.12 -11.749 -31.633 -11.75 -31.576 -11.745 -9.525 -11.75 -12.458 h 0.761 v -7.332 z m -366.9468,0.765 v 1.995 h 1.695 v 3.632 h 27.7812 v 48.559 h 4.0566 v 11.689 h -4.0566 v 4.16 H 65.0762 v 5.193 h 11.8442 v 2.167 h 5.6276 v -2.167 h 10.7642 v -5.194 H 82.548 v -50.027 h 7.8186 v -0.04 h 15.1414 v 0.04 h 13.213 v -0.04 h 15.142 v 0.04 h 0.888 v 40.082 h 1.132 v -40.082 h 13.043 v -0.04 h 11.71 v 0.04 h 1.333 v 50.028 h -6.128 v 4.058 h -0.703 v 1.135 h 11.533 v -1.135 h -0.552 v -4.058 h -2.067 v -18.675 h 15.507 v 18.675 h -5.394 v 4.058 h -0.378 v 1.135 h 12.986 v 2.167 h 5.628 v -2.167 h 0.713 v -5.193 h -7.927 v -65.503 h -3.633 v -1.696 h -1.995 v 11.543 0 -0.02 H 82.5481 V 867.37 Z m 151.0598,1.859 c -1.781,0 -3.225,1.442 -3.225,3.226 v 10.877 l 5.416,3.13 v -15.812 h 20.396 v -1.421 z m -63.752,65.349 v 2.815 h -29.606 v 5.194 h 39.672 v -1.135 h -0.668 v -4.059 h -8.267 v -2.815 z m 52.021,33.973 v 2.304 h -1.581 v 5.195 h 1.581 v 1.533 h 6.041 v -1.533 h 2.388 v -2.271 h -2.388 v -5.228 z m 41.269,0 v 5.228 h -2.382 v 2.271 h 2.382 v 1.533 h 6.046 v -1.533 h 1.576 v -5.195 h -1.576 v -2.304 z"
        inkscape:connector-curvature="0" />
-    <path id="PT-Ascensore" class="ascensore"
+    <path
+       id="PT-Ascensore"
+       class="ascensore"
        d="m 164.896,919.828 h 14.092 v 15.26 1.81 h -0.687 -7.224 v -0.7 h 6.687 v -1.11 h 0.54 v -14.57 h -12.718 v 14.57 h 7.932 v 0.7 h -7.395 v 1.11 h -1.229 v -1.81 0 z m 1.173,1.15 h 11.741 v 13.65 h -11.741 z"
        inkscape:connector-curvature="0" />
-    <path id="Portineria" class="bidelleria"
+    <path
+       id="Portineria"
+       class="bidelleria"
        d="m 219.785,910.929 v 26.47 h 16.759 v -26.47 z"
        inkscape:connector-curvature="0" />
-    <path id="Info-Logo" class="logo"
+    <path
+       id="Info-Logo"
+       class="logo"
        d="m 228.164,919.579 c 2.528,0 4.577,2.05 4.577,4.58 0,2.53 -2.049,4.58 -4.577,4.58 -2.528,0 -4.577,-2.05 -4.577,-4.58 0,-2.53 2.049,-4.58 4.577,-4.58 z m 0,1.31 c -0.36,0 -0.65,0.3 -0.65,0.7 0,0.4 0.29,0.6 0.65,0.6 0.36,0 0.65,-0.3 0.65,-0.6 0,-0.4 -0.29,-0.7 -0.65,-0.7 z m 0,1.95 c -0.33,0 -0.66,0.2 -0.65,0.7 v 3.27 c 0,0.9 1.296,0.9 1.304,0 v -3.27 c 0,-0.4 -0.32,-0.7 -0.65,-0.7 z"
        inkscape:connector-curvature="0" />
-    <g id="PT-ScalaRampa1" class="scala"
+    <g
+       id="PT-ScalaRampa1"
+       class="scala"
        transform="matrix(9.99996,0,0,9.99996,-563.37,116.331)">
       <path
          d="m 282.92,287.52 v 16.785 h 5.447 c 1.005,-0.03 1.802,-0.857 1.803,-1.862 0,-1.004 -0.799,-1.826 -1.803,-1.859 v -9.781 z"
@@ -1398,49 +1610,83 @@
        y="0"
        x="0" />
   </g>
-  <g id="PiantaPianoPrimo" transform="translate(50,-500)" data-posx="50" data-posy="-500" class="floor">
-     <text
-        class="piano"
-        data-gref="PiantaPianoPrimo"
-        id="PiantaPianoPrimoLabel"
-        y="1061.2"
-        x="-0.972213"
-        xml:space="preserve"><tspan
-          id="PiantaPianoPrimoText"
-          y="1061.2"
-          x="-0.972213">Pianta piano primo</tspan></text>
-    <path id="P7-Aula" class="aula" data-use="Scenotecnica"
+  <g
+     id="PiantaPianoPrimo"
+     transform="translate(50,-496.625)"
+     style="fill:none;stroke:#000000">
+    <text
+       class="piano"
+       data-gref="PiantaPianoPrimo"
+       id="PiantaPianoPrimoLabel"
+       y="1061.2"
+       x="-0.972213"
+       xml:space="preserve"><tspan
+         id="PiantaPianoPrimoText"
+         y="1061.2"
+         x="-0.972213">Pianta piano primo</tspan></text>
+    <path
+       class="aula"
+       data-use="Scenotecnica"
        d="M 76.9867,975.983 H 65.5423 v -2.59 H 53.712 v 2.59 H 6.45128 v 16.629 H 2.81993 v 1.7 0.8 4.73 0.798 4.74 0.8 1.69 h 3.63135 v 5.73 H 2.81993 v 1.69 0.8 4.74 0.7 4.74 0.8 1.7 h 3.63135 v 11.54 H 17.7162 v 3.63 h 1.6978 0.757 4.7379 0.757 4.7379 0.757 1.6978 v -3.63 h 17.3439 v 3.63 h 1.6978 0.757 4.7379 0.7569 4.7379 0.757 1.6978 v -3.63 h 11.6407 z"
+       id="P7-Aula"
        inkscape:connector-curvature="0" />
-    <path id="P8-Aula" class="aula" data-use="Beni culturali ed ambientali, Estetica"
+    <path
+       class="aula"
+       data-use="Beni culturali ed ambientali, Estetica"
        d="m 119.814,975.983 h -8.571 v -2.59 H 99.4121 v 2.59 H 82.6144 v 5.23 h -4.492 v 10.739 h 4.492 v 34.268 h 12.6754 v 3.63 h 1.6978 0.757 4.7374 0.76 4.738 0.76 1.698 v -3.63 h 9.381 z"
+       id="P8-Aula"
        inkscape:connector-curvature="0" />
-    <path id="P9-Aula" class="aula" data-use="Fotografia, Storia dello spettacolo"
+    <path
+       class="aula"
+       data-use="Fotografia, Storia dello spettacolo"
        d="m 162.299,975.983 h -9.102 v -2.59 h -11.83 v 2.59 H 122.18 v 50.237 h 12.445 v 3.63 h 1.698 0.76 4.738 0.76 4.738 0.76 1.698 v -3.63 h 12.531 z"
+       id="P9-Aula"
        inkscape:connector-curvature="0" />
-    <path id="P1-Aula" class="aula" data-use="Aula magna"
+    <path
+       class="aula"
+       data-use="Aula magna"
        d="m 343.739,981.293 h -4.492 v -5.31 h -15.936 v -2.59 h -11.83 v 2.59 h -30.135 v -2.59 h -11.83 v 2.59 H 258.69 v 5.04 h -5.885 v -5.04 h -37.248 v -2.59 H 203.47 v 2.59 h -35.284 v 59.707 h 6.774 v 3.34 h 1.698 0.76 4.738 0.76 4.738 0.76 1.698 v -3.34 h 13.419 v 3.34 h 1.698 0.76 4.738 0.76 4.738 0.76 1.698 v -3.34 h 12.103 v 3.34 h 1.697 0.76 4.738 0.76 4.738 0.76 1.697 v -3.34 h 6.894 v -14.1 h 5.887 v 4.63 h 12.53 v 3.63 h 1.698 0.76 4.738 0.76 4.738 0.76 1.698 v -3.63 h 24.192 v 3.63 h 1.698 0.76 4.738 0.76 4.738 0.76 1.698 v -3.63 h 13.547 v -34.188 h 4.492 z"
+       id="P1-Aula"
        inkscape:connector-curvature="0" />
-    <path id="P2-Aula" class="aula" data-use="Anatomia artistica, Metod. della progettazione"
+    <path
+       class="aula"
+       data-use="Anatomia artistica, Metod. della progettazione"
        d="m 415.41,975.983 h -46.902 v -2.59 h -11.83 v 2.59 h -11.804 v 64.177 h 10.77 v 3.63 h 1.697 0.76 4.737 0.76 4.738 0.76 1.697 v -3.63 h 17.345 v 3.63 h 1.697 0.76 4.738 0.76 4.738 0.76 1.698 v -3.63 h 12.136 v -11.54 h 3.631 v -1.7 -0.8 -4.73 -0.8 -4.74 -0.8 -1.69 h -3.631 v -5.73 h 3.631 v -1.69 -0.8 -4.74 -0.798 -4.73 -0.8 -1.7 h -3.631 z"
+       id="P2-Aula"
        inkscape:connector-curvature="0" />
-    <path id="P3-Aula" class="aula" data-use="Anatomia artistica"
+    <path
+       class="aula"
+       data-use="Anatomia artistica"
        d="m 419.041,898.083 v -0.8 -4.74 -0.7 -4.74 -0.8 -1.7 h -3.631 v -11.71 h -27.612 v -3.63 h -1.697 -0.76 -4.738 -0.76 -4.738 -0.76 -1.698 v 3.63 h -27.781 v 49.24 h -2.814 v 10.64 h 2.814 v 4.53 h 12.613 v 2.6 h 11.769 v -2.6 h 46.154 v -16.28 h 3.631 v -1.7 -0.8 -4.73 -0.8 -4.74 -0.8 -1.69 h -3.631 v -6.13 h 3.631 z"
+       id="P3-Aula"
        inkscape:connector-curvature="0" />
-    <path id="P4-Aula" class="aula" data-use="Lab. montaggio audio e video"
+    <path
+       class="aula"
+       data-use="Lab. montaggio audio e video"
        d="m 339.247,887.303 h -7.817 v -3.63 h -1.698 -0.757 -4.738 -0.757 -4.738 -0.757 -1.698 v 3.63 h -13.213 v -3.63 h -1.698 -0.76 -4.738 -0.76 -4.737 -0.76 -1.697 v 3.63 h -11.38 v 50.03 h 40.873 v 2.59 h 11.768 v -2.59 h 10.055 v -4.53 h 2.813 v -10.64 h -2.813 z"
+       id="P4-Aula"
        inkscape:connector-curvature="0" />
-    <path id="P1-WC" class="wc"
+    <path
+       class="wc"
        d="m 275.415,887.303 h -2.546 v -3.63 h -1.698 -0.76 -6.799 -0.76 -1.698 v 3.63 h -1.586 v 23.26 h 2.395 v 1.13 h -2.395 v 12 h 2.7 v 2.25 h -0.57 v 7.12 h 0.57 v 4.27 h 13.141 v -25.64 h -6.332 v -1.13 h 6.332 z"
+       id="P1-WC"
        inkscape:connector-curvature="0" />
-    <path id="P1-WC-H" class="wc"
+    <path
+       class="wc"
        d="m 163.169,887.303 h -1.567 v -3.63 h -1.698 -0.76 -6.799 -0.76 -1.698 v 3.63 1.59 h -1.135 v -1.59 h -12.807 v 50.03 h 10.129 v 2.6 h 11.768 v -2.6 h 5.321 z"
+       id="P1-WC-H"
        inkscape:connector-curvature="0" />
-    <path id="P5-Aula" class="aula" data-use="Storia dell'arte"
+    <path
+       class="aula"
+       data-use="Storia dell'arte"
        d="m 134.815,887.303 h -0.88 v -3.63 h -1.698 -0.76 -4.738 -0.76 -4.738 -0.76 -1.698 v 3.63 h -13.21 v -3.63 h -1.697 -0.758 -4.7373 -0.7572 -4.7379 -0.7572 -1.6978 v 3.63 h -7.8162 v 34.18 h -4.492 v 10.74 h 4.492 v 5.11 h 10.7649 v 2.59 H 105.21 v -2.59 h 29.605 z"
+       id="P5-Aula"
        inkscape:connector-curvature="0" />
-    <path id="P6-Aula" class="aula" data-use="Scenografia"
+    <path
+       class="aula"
+       data-use="Scenografia"
        d="m 76.9867,872.923 h -27.781 v -3.63 h -1.6978 -0.7571 -4.738 -0.7571 -4.738 -0.7571 -1.6978 v 3.63 H 6.45128 v 11.71 H 2.81993 v 1.7 0.8 4.74 0.7 4.74 0.8 1.7 h 3.63135 v 6.12 H 2.81993 v 1.7 0.8 4.74 0.8 4.74 0.8 1.7 h 3.63135 v 16.28 H 53.7875 v 2.59 h 11.7686 v -2.59 h 11.4306 z"
+       id="P6-Aula"
        inkscape:connector-curvature="0" />
     <text
        id="text10304"
@@ -1532,11 +1778,13 @@
        xlink:href="#Wc-Logo"
        y="0"
        x="0" />
-    <path class="distribuzione"
+    <path
+       class="distribuzione"
        d="m 179.626,848.932 v 88.4 H 6.37612 v 38.53 H 415.4 v -38.53 H 262.274 v -13.64 h -2.7 l -1.137,-42.02 h -16.2 v -32.74 z"
        id="P1-Distribuzione"
        inkscape:connector-curvature="0" />
-    <path class="muri"
+    <path
+       class="muri"
        id="P1-Muri"
        d="m 179.625,848.927 v 5.626 3.828 11.73 11.54 0 h -4.134 v 0 h -8.314 v 0 h -7.272 v 0 h -8.314 v 0 h -19.357 v 0 h -11.746 v 0 h -16.614 v 0 H 82.6141 V 867.283 H 47.5103 v 0 H 35.7591 v 0 H 7.4042 v -0.76 H 0.066145 v 7.337 h 0.759646 v 12.459 11.748 9.522 11.747 31.578 11.747 31.637 11.742 9.12 11.74 12.29 H 0.066145 v 7.34 H 7.4042 v -0.75 h 12.0096 v 0 h 11.7461 v 0 h 20.7429 v 0 h 24.1329 v 0.75 h 7.338 v -7.34 h -0.7596 v -7.8 h 4.2995 v 0.1 h 75.3844 v 1.27 h -0.945 v 2.92 4.92 0 h 15.306 v 0 h 11.746 v 0 h 16.815 v 0 h 11.747 v 0 h 15.497 v 0 h 11.746 v 0 h 15.426 v -7.85 h -0.946 v -1.34 h 14.232 v 0 h 11.745 v 0 h 27.59 v 0 h 11.748 v 0 h 15.242 v 7.8 h -0.759 v 7.34 h 7.339 v -0.76 h 11.512 v 0 h 11.753 v 0 h 20.735 v 0 h 11.747 v 0 h 12.883 v 0.76 h 7.339 v -7.34 h -0.761 v 0 -12.28 -11.75 -9.12 -11.74 -31.636 -11.747 -31.579 -11.747 -9.522 -11.748 -12.459 h 0.761 v -7.337 h -7.339 v 0.657 h -51.831 v 0.102 h -23.379 v 14.368 h -21.259 v 0 h -16.613 v 0 h -11.747 v 0 H 271.17 v 0 h -11.784 -3.476 v 0 h -11.235 v 0 h -2.439 v 0 -11.581 -11.748 -3.785 -5.626 h -25.378 v 0 h -11.746 v 0 z m 23.792,5.626 h 15.141 v 0 h 18.051 v 2.084 15.139 9.889 55.66 h -8.734 v 5.193 h 0.719 v 2.165 h 5.627 v -2.165 h 15.11 v -5.193 h -7.095 v -43.286 h 2.62 v -1.135 h -2.62 v -5.609 h 2.439 v 0 h 13.762 v 5.603 h -2.527 v 1.134 h 2.527 v 30.784 h 2.703 v 1.117 h 1.136 v -2.249 h -2.702 V 911.68 h 2.398 v -1.118 h -2.398 v -23.26 h 1.586 v 0 h 14.257 v 23.252 h -6.334 v 1.133 h 6.334 v 25.638 h -13.141 v -4.271 h -1.136 v 4.271 5.194 h 56.284 v -5.193 h -40.869 v -50.024 h 54.874 v 0 h 7.818 v 34.861 h 2.813 v 10.647 h -2.813 v 4.522 h -10.054 v 5.194 h 10.054 v 2.164 h 5.628 v -2.164 h 12.615 v -5.194 H 344.875 V 932.81 H 343.6 v -10.647 h 1.275 v -49.236 h 27.781 v 0 h 15.142 v 0 h 27.609 v 0.937 10.773 15.144 6.126 15.144 16.281 h -46.151 v 5.193 h 46.151 v 6.707 15.145 6.418 h -46.899 v 5.194 h 46.899 v 16.624 15.147 5.72 15.14 10.58 0.97 h -0.95 v 0 h -69.582 v -64.171 h 11.803 v -5.194 h -11.803 v -2.31 h -5.628 v 2.31 h -15.936 v 5.194 h 15.936 v 5.303 h 4.493 v 10.741 h -4.493 v 34.177 H 258.69 v -4.62 h -5.886 v 14.1 h -2.46 v 0 h -82.16 v -59.689 h 35.285 v -5.193 H 192.88 v -2.31 h -6.041 v 2.31 h -33.64 v 5.193 h 9.099 v 50.219 h -27.672 v 0 H 122.183 V 976 h 19.182 v -5.195 H 111.243 V 976 h 8.573 v 50.23 h -9.385 v 0 H 95.2903 v 0 H 82.6141 v -34.251 h -4.4907 v -10.742 h 4.4907 v -5.226 h 16.8 v -5.193 h -16.8 v -2.165 l -5.6276,-0.01 v 2.165 H 65.5402 v 5.194 h 11.4463 v 64.178 H 65.3438 v 0 H 6.45335 v -11.53 -15.15 -5.72 -15.144 -16.625 H 53.7115 v -5.193 H 6.45335 V 964.4 949.254 942.548 H 53.789 v -5.194 H 6.45335 v -16.28 -15.144 -6.126 -15.144 -10.774 -0.934 H 60.078 v 0 h 16.9095 v 64.406 H 65.5557 v 5.193 h 11.4308 v 2.164 h 5.6276 v -2.164 h 10.7642 v -5.193 H 82.6141 v -5.107 h -4.4907 v -10.739 h 4.4907 v -34.184 h 7.8186 v -0.02 h 15.1413 v 0.01 h 13.214 v -0.01 h 15.141 v 0.01 h 0.889 v 50.029 h -29.606 v 5.194 h 40.865 v -5.194 h -10.128 v -50.029 h 12.81 v 1.592 h 1.133 v -1.592 -0.01 H 161.6 v 0.01 h 1.566 v 50.029 h -5.316 v 5.194 h 7.958 v -4.058 h 0.377 v -1.136 h -0.377 -1.505 V 918.77 h 15.322 v 18.557 h -5.394 -0.931 v 1.136 h 0.553 v 4.058 h 12.986 v 2.164 h 5.629 v -2.164 h 0.712 v -5.194 h -7.927 v -55.662 -9.838 -15.133 -2.125 h 18.164 z m 24.691,113.928 v 2.31 h -12.552 v 5.193 h 37.248 v 5.039 h 5.886 v -5.039 h 10.826 v -5.193 h -35.362 v -2.31 z m 53.238,2.296 v 5.195 h 30.136 v -5.195 z"
        inkscape:connector-curvature="0" />
@@ -1545,11 +1793,13 @@
        d="m 164.962,919.762 h 14.092 v 15.26 1.81 h -0.687 -7.224 v -0.7 h 6.687 v -1.11 h 0.54 v -14.57 h -12.718 v 14.57 h 7.932 v 0.7 h -7.395 v 1.11 h -1.229 v -1.81 0 z m 1.173,1.15 h 11.741 v 13.65 h -11.741 z"
        class="ascensore"
        inkscape:connector-curvature="0" />
-    <path class="bidelleria"
+    <path
+       class="bidelleria"
        id="Informazioni-P1"
        d="m 185.254,921.273 v 16.06 h 21.347 v -16.06 z"
        inkscape:connector-curvature="0" />
-    <path class="logo"
+    <path
+       class="logo"
        d="m 195.927,924.718 c 2.528,0 4.577,2.05 4.577,4.58 0,2.53 -2.049,4.58 -4.577,4.58 -2.528,0 -4.577,-2.05 -4.577,-4.58 0,-2.53 2.049,-4.58 4.577,-4.58 z m 0,1.31 c -0.36,0 -0.65,0.3 -0.65,0.7 0,0.4 0.29,0.6 0.65,0.6 0.36,0 0.65,-0.3 0.65,-0.6 0,-0.4 -0.29,-0.7 -0.65,-0.7 z m 0,1.95 c -0.33,0 -0.66,0.2 -0.65,0.7 v 3.27 c 0,0.9 1.296,0.9 1.304,0 v -3.27 c 0,-0.4 -0.32,-0.7 -0.65,-0.7 z"
        id="Info-Logo-P1"
        inkscape:connector-curvature="0" />
@@ -2050,56 +2300,93 @@
        y="0"
        x="0" />
   </g>
-  <g id="PiantaPianoSecondo" transform="translate(50,-800)" data-posx="50" data-posy="-800" class="floor">
-     <text
-        class="piano"
-        data-gref="PiantaPianoSecondo"
-        xml:space="preserve"
-        x="-0.972213"
-        y="1061.2"
-        id="PiantaPianoSecondoLabel"><tspan
-          x="-0.972213"
-          y="1061.2"
-          id="PiantaPianoSecondoText">Pianta piano secondo</tspan></text>
-    <path id="M11-Aula" class="aula" data-use=""
+  <g
+     id="PiantaPianoSecondo"
+     transform="translate(49.9986,-796.625)"
+     style="fill:none;stroke:#000000">
+    <text
+       class="piano"
+       data-gref="PiantaPianoSecondo"
+       xml:space="preserve"
+       x="-0.972213"
+       y="1061.2"
+       id="PiantaPianoSecondoLabel"><tspan
+         x="-0.972213"
+         y="1061.2"
+         id="PiantaPianoSecondoText">Pianta piano secondo</tspan></text>
+    <path
+       class="aula"
        d="M 76.9867,975.984 H 66.3483 v -2.59 H 54.5179 v 2.59 H 6.45128 v 64.176 H 76.9867 Z"
+       id="M11-Aula"
        inkscape:connector-curvature="0" />
-    <path id="M12-Aula" class="aula" data-use="Pittura B"
+    <path
+       class="aula"
+       data-use="Pittura B"
        d="m 162.299,975.984 h -51.056 v -2.59 H 99.4121 v 2.59 H 82.6144 v 50.236 h 79.6846 v -4.56 z"
+       id="M12-Aula"
        inkscape:connector-curvature="0" />
-    <path id="M1-Aula" class="aula" data-use="Anatomia artistica, Illustrazione scientifica"
+    <path
+       class="aula"
+       data-use="Anatomia artistica, Illustrazione scientifica"
        d="m 252.805,975.984 h -37.248 v -2.59 H 203.47 v 2.59 h -35.284 v 45.676 14.03 h 84.619 z"
+       id="M1-Aula"
        inkscape:connector-curvature="0" />
-    <path id="M2-Aula" class="aula" data-use=""
+    <path
+       class="aula"
        d="m 339.247,975.984 h -60.168 v -2.59 h -11.83 v 2.59 h -8.559 v 50.236 h 80.557 z"
+       id="M2-Aula"
        inkscape:connector-curvature="0" />
-    <path id="M6-Aula" class="aula" data-use="Costume per lo spettacolo, Fenom. delle arti contemporanee"
+    <path
+       class="aula"
+       data-use="Costume per lo spettacolo, Fenom. delle arti contemporanee"
        d="m 415.41,872.924 h -27.612 v -3.63 h -1.697 -0.76 -4.738 -0.76 -4.738 -0.76 -1.698 v 3.63 h -27.781 v 64.41 h 10.804 v 2.59 h 11.768 v -2.59 h 47.964 z"
+       id="M6-Aula"
        inkscape:connector-curvature="0" />
-    <path id="M7-Aula" class="aula" data-use="Metod. dell progettazione, Design, Decorazione"
+    <path
+       class="aula"
+       data-use="Metod. dell progettazione, Design, Decorazione"
        d="m 339.247,887.304 h -7.817 v -3.63 h -1.698 -0.757 -4.738 -0.757 -4.738 -0.757 -1.698 v 3.63 h -13.213 v -3.63 h -1.698 -0.76 -4.738 -0.76 -4.737 -0.76 -1.697 v 3.63 h -15.062 v -3.63 h -1.698 -0.76 -6.799 -0.76 -1.698 v 3.63 h -1.019 v 50.03 h 57.283 v 2.59 h 11.769 v -2.59 h 10.054 z"
+       id="M7-Aula"
        inkscape:connector-curvature="0" />
-    <path class="wc"
+    <path
+       class="wc"
        d="m 163.169,887.304 h -1.567 v -3.63 h -1.698 -0.76 -6.799 -0.76 -1.698 v 3.63 1.59 h -1.135 v -1.59 h -12.807 v 50.03 h 10.129 v 2.6 h 11.768 v -2.6 h 5.321 z"
        id="P2-WC-H"
        inkscape:connector-curvature="0" />
-    <path id="Labo-Laba-Aula" class="aula" data-use="Labò-Labà"
+    <path
+       class="aula"
        d="m 134.815,887.304 h -0.88 v -3.63 h -1.698 -0.76 -4.738 -0.76 -4.738 -0.76 -1.698 v 3.63 h -13.21 v -3.63 h -1.697 -0.758 -4.7373 -0.7572 -4.7379 -0.7572 -1.6978 v 3.63 h -7.8162 v 50.03 h 9.0777 v 2.59 h 11.8299 v -2.59 h 31.293 z"
+       id="Labo-Laba-Aula"
+       data-use="Labò-Labà"
        inkscape:connector-curvature="0" />
-    <path id="M10-Aula" class="aula" data-use="Pittura"
+    <path
+       data-use="Pittura"
+       class="aula"
        d="m 76.9867,872.924 h -27.781 v -3.63 h -1.6978 -0.7571 -4.738 -0.7571 -4.738 -0.7571 -1.6978 v 3.63 H 6.45128 v 64.41 H 54.0647 v 2.59 h 11.7686 v -2.59 h 11.1534 z"
+       id="M10-Aula"
        inkscape:connector-curvature="0" />
-    <path id="M3-Aula" class="aula" data-use="Laboratorio di fotografia"
+    <path
+       class="aula"
+       data-use="Laboratorio di fotografia"
        d="m 373.347,1009.09 h -2.559 v -0.5 h -8.518 v 0.5 h -17.396 v 31.07 h 11.641 v 3.63 h 1.698 13.445 v -3.63 h 1.689 z"
+       id="M3-Aula"
        inkscape:connector-curvature="0" />
-    <path id="M4-Aula" class="aula" data-use="Laboratorio di animazione digitale"
+    <path
+       class="aula"
+       data-use="Laboratorio di animazione digitale"
        d="m 415.41,1009.09 h -30.7 v -0.5 h -8.518 v 0.5 h -1.899 v 31.07 h 14.709 v 3.63 h 15.143 v -3.63 h 11.265 z"
+       id="M4-Aula"
        inkscape:connector-curvature="0" />
-    <path id="M5-Aula" class="aula" data-use=""
+    <path
+       class="aula"
        d="m 415.41,975.984 h -27.874 v 21.62 h -0.47 v 8.506 h 0.47 v 2.03 h 27.874 z"
+       id="M5-Aula"
        inkscape:connector-curvature="0" />
-    <path id="M8-Aula" class="aula" data-use="Decorazione"
+    <path
+       class="aula"
+       data-use="Decorazione"
        d="m 236.611,854.564 h -18.053 v -3.63 h -1.698 -0.76 -4.738 -0.76 -4.738 -0.76 -1.698 v 3.63 h -18.164 v 82.77 h 19.786 v 2.59 h 11.769 v -2.59 h 19.805 z"
+       id="M8-Aula"
        inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
@@ -2206,11 +2493,13 @@
        xlink:href="#Wc-Logo"
        y="0"
        x="0" />
-    <path class="distribuzione"
+    <path
+       class="distribuzione"
        id="P2-Distribuzione"
        d="m 244.676,884.483 v 2.82 h -2.44 v 50.03 H 4.79998 v 38.65 H 344.875 v 32.157 h 17.394 v 0.47 h 8.516 v -0.47 h 5.406 v 0.47 h 8.517 v -0.47 h 1.881 v -2.03 h 0.476 v -8.517 h -0.476 v -21.61 h 29.977 v -38.65 H 259.005 v -50.03 h -3.095 v -2.82 z"
        inkscape:connector-curvature="0" />
-    <path class="muri"
+    <path
+       class="muri"
        id="P2-Muri"
        d="m 179.625,848.933 v 32.74 h -2.052 v 0 H 82.6141 v -14.38 H 47.5103 v 0 H 35.7591 v 0 H 7.4042 v -0.75 H 0.066145 v 7.33 H 0.825791 V 1039.21 H 0.066145 v 7.34 H 7.4042 v -0.76 h 68.6315 v 0.76 h 7.338 v -7.34 h -0.7596 v -7.8 h 79.6839 v 1.34 h -0.945 v 7.85 h 98.283 v -7.85 h -0.946 v -1.34 h 80.557 v 7.8 h -0.759 v 7.34 h 7.339 v -0.76 h 68.63 v 0.76 h 7.339 v -7.34 h -0.761 V 873.873 h 0.761 v -7.33 h -7.339 v 0.75 h -28.355 v 0 h -11.75 v 0 h -35.105 v 14.39 h -7.818 v 0 H 255.91 v 0 5.62 0 h 3.095 v 50.03 h -0.568 v 5.19 h 58.987 v -5.19 h -57.282 v -50.03 h 71.287 v 0 h 7.818 v 50.03 h -10.054 v 5.2 h 26.488 v -5.2 h -10.806 v -64.41 h 20.397 v 0 h 33.488 v 0 h 16.647 v 64.41 h -47.958 v 5.2 h 47.958 v 28.26 h -47.752 v 5.19 h 18.934 v 21.61 h 0.945 v -21.61 h 27.873 v 32.157 h -27.873 v -2.02 h -0.945 v 2.02 h -1.876 v 0.95 h 30.694 v 31.07 h -11.258 v 0 h -15.147 v 0 h -14.709 v -31.07 h 1.898 v -0.95 h -5.405 v 0.95 h 2.564 v 31.07 h -1.691 v 0 h -15.14 v 0 h -11.644 v -31.07 h 17.393 v -0.95 h -17.393 v -32.157 h 10.951 v -5.19 h -76.744 v 5.19 h 60.165 v 50.237 H 258.69 v -50.237 h 8.557 v -5.19 h -51.691 v 5.19 h 37.248 v 59.707 h -84.62 v -14.03 -45.677 h 35.285 v -5.19 h -92.226 v 5.19 h 51.055 v 45.677 4.56 H 82.6141 v -50.237 h 16.8 v -5.19 H 66.3463 v 5.19 h 10.6402 v 64.177 H 6.45335 V 975.983 H 54.5176 v -5.19 H 6.45335 v -28.27 H 54.0629 v -5.19 H 6.45335 v -64.41 h 8.19075 v 0 h 62.3424 v 64.4 H 65.8347 v 5.2 h 25.8589 v -5.2 h -9.0795 v -50.02 h 7.8186 v 0 h 15.1413 v 0 h 13.213 v 0 h 15.142 v 0 h 0.888 v 50.02 h -31.295 v 5.2 h 42.555 v -5.2 h -10.128 v -50.02 h 12.811 v 1.58 h 1.131 v -1.58 0 H 161.6 v 0 h 1.566 v 50.02 h -5.316 v 5.2 h 7.958 v -4.06 h 0.377 v -1.14 h -0.377 -1.505 v -18.32 h 15.322 v 18.32 h -5.394 -0.378 -0.553 v 1.14 h 0.553 v 4.06 h 31.187 v -5.2 h -19.787 v -82.76 h 2.682 v 0 h 43.733 v 0 h 4.941 v 82.76 h -19.803 v 5.2 h 30.396 v -5.2 h -4.966 v -50.02 h 2.439 v -5.63 h -2.439 v -32.74 h -25.378 v 0 h -11.746 v 0 z"
        inkscape:connector-curvature="0" />
@@ -2456,7 +2745,8 @@
          width="100%"
          height="100%" />
     </g>
-    <path class="ascensore"
+    <path
+       class="ascensore"
        d="m 164.962,919.763 h 14.092 v 15.26 1.81 h -0.687 -7.224 v -0.7 h 6.687 v -1.11 h 0.54 v -14.57 h -12.718 v 14.57 h 7.932 v 0.7 h -7.395 v 1.11 h -1.229 v -1.81 0 z m 1.173,1.15 h 11.741 v 13.65 h -11.741 z"
        id="P2-Ascensore"
        inkscape:connector-curvature="0" />
@@ -2470,4 +2760,92 @@
        y="0"
        x="0" />
   </g>
+  <text
+     xml:space="preserve"
+     style="font-size:4.586071px;line-height:1.25;font-family:'Book Antiqua';-inkscape-font-specification:'Book Antiqua';letter-spacing:0px;word-spacing:0px;fill:#008000;stroke-width:0.264581"
+     x="335.575"
+     y="1024.72"
+     id="text2440"><tspan
+       sodipodi:role="line"
+       id="tspan2438"
+       x="335.575"
+       y="1024.72"
+       style="font-size:22.930367px">S2 lab editoriale</tspan></text>
+  <text
+     id="text2444"
+     y="1131.23"
+     x="563.681"
+     style="font-size:4.586071px;line-height:1.25;font-family:'Book Antiqua';-inkscape-font-specification:'Book Antiqua';letter-spacing:0px;word-spacing:0px;fill:#008000;stroke-width:0.264581"
+     xml:space="preserve"><tspan
+       style="font-size:22.930367px"
+       y="1131.23"
+       x="563.681"
+       id="tspan2442"
+       sodipodi:role="line">AAA</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:4.586071px;line-height:1.25;font-family:'Book Antiqua';-inkscape-font-specification:'Book Antiqua';letter-spacing:0px;word-spacing:0px;fill:#008000;stroke-width:0.264581"
+     x="558.781"
+     y="1092.13"
+     id="text2448"><tspan
+       sodipodi:role="line"
+       id="tspan2446"
+       x="558.781"
+       y="1092.13"
+       style="font-size:22.930367px">AAA</tspan></text>
+  <text
+     id="text2452"
+     y="1036.38"
+     x="557.066"
+     style="font-size:4.586071px;line-height:1.25;font-family:'Book Antiqua';-inkscape-font-specification:'Book Antiqua';letter-spacing:0px;word-spacing:0px;fill:#008000;stroke-width:0.264581"
+     xml:space="preserve"><tspan
+       style="font-size:22.930367px"
+       y="1036.38"
+       x="557.066"
+       id="tspan2450"
+       sodipodi:role="line">AAA</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:4.586071px;line-height:1.25;font-family:'Book Antiqua';-inkscape-font-specification:'Book Antiqua';letter-spacing:0px;word-spacing:0px;fill:#008000;stroke-width:0.264581"
+     x="567.959"
+     y="814.792"
+     id="text2456"><tspan
+       sodipodi:role="line"
+       id="tspan2454"
+       x="567.959"
+       y="814.792"
+       style="font-size:22.930367px">AAA</tspan></text>
+  <text
+     id="text2460"
+     y="814.362"
+     x="653.835"
+     style="font-size:4.586071px;line-height:1.25;font-family:'Book Antiqua';-inkscape-font-specification:'Book Antiqua';letter-spacing:0px;word-spacing:0px;fill:#008000;stroke-width:0.264581"
+     xml:space="preserve"><tspan
+       style="font-size:22.930367px"
+       y="814.362"
+       x="653.835"
+       id="tspan2458"
+       sodipodi:role="line">AAA</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:4.586071px;line-height:1.25;font-family:'Book Antiqua';-inkscape-font-specification:'Book Antiqua';letter-spacing:0px;word-spacing:0px;fill:#008000;stroke-width:0.264581"
+     x="658.325"
+     y="413.996"
+     id="text2464"><tspan
+       sodipodi:role="line"
+       id="tspan2462"
+       x="658.325"
+       y="413.996"
+       style="font-size:22.930367px">AAA</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:4.586071px;line-height:1.25;font-family:'Book Antiqua';-inkscape-font-specification:'Book Antiqua';letter-spacing:0px;word-spacing:0px;fill:#008000;stroke-width:0.264581"
+     x="575.395"
+     y="488.082"
+     id="text2468"><tspan
+       sodipodi:role="line"
+       id="tspan2466"
+       x="575.395"
+       y="488.082"
+       style="font-size:22.930367px">AAA</tspan></text>
 </svg>
