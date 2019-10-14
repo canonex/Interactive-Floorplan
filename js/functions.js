@@ -82,7 +82,35 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 				});
 
-			}
+			}; //For aule
+
+      var searchinput = document.getElementById('floorplan-search');
+
+      searchinput.addEventListener('keyup', function() {
+
+        if (searchinput.value.length > 1) {
+
+          var iSearch = searchinput.value.toUpperCase()
+
+          for (let aula of aule) {
+
+            var aulaId = aula.id.toUpperCase();
+            var aulaUse = aula.dataset.use.toUpperCase();
+
+            //Clear all
+            aula.classList.remove( "selected");
+
+            //Seach in id and in data-use
+            if( aulaId.toUpperCase().indexOf(iSearch) > -1 ||
+             aulaUse.toUpperCase().indexOf(iSearch) > -1 ) {
+
+              aula.classList.add( "selected");
+
+            }
+          }
+        }
+      });
+
 		}
 	};
 
