@@ -245,7 +245,7 @@
     <path id="PS-WC-H" class="wc"
        d="m 275.738,887.301 h -33.499 v 50.029 h 19.247 v 3.16 h 0.55 v 0.4 h 7.115 v -0.4 h 3.918 v -3.17 h 2.666 z"
        inkscape:connector-curvature="0" />
-    <path id="S3-Aula" class="aula" data-use="Lab. Multimediale"
+    <path id="S3-Aula" class="aula" data-use="Laboratorio Multimediale"
        d="M 162.446,887.301 H 82.6144 v 50.029 h 11.3569 v 4.06 h 8.9677 v -4.06 h 59.595 z"
        inkscape:connector-curvature="0" />
     <path id="Biblioteca" class="servizio"
@@ -731,7 +731,7 @@
     <path id="AulaX" class="servizio"
        d="m 339.181,976.048 h -15.936 v -2.59 h -11.83 v 2.59 h -9.634 v 50.242 h 8.71 v 3.63 h 1.698 0.76 4.738 0.76 4.738 0.76 1.698 v -3.63 h 13.547 z"
        inkscape:connector-curvature="0" />
-    <path id="T1-Aula" class="aula" data-use=""
+    <path id="T1-Aula" class="aula" data-use="Laboratorio Multimediale"
        d="m 415.344,976.048 h -46.902 v -2.59 h -11.83 v 2.59 h -11.804 v 64.182 h 10.77 v 3.63 h 1.697 0.76 4.737 0.76 4.738 0.76 1.697 v -3.63 h 17.345 v 3.63 h 1.697 0.76 4.738 0.76 4.738 0.76 1.698 v -3.63 h 12.136 v -11.54 h 3.631 v -1.7 -0.8 -4.73 -0.8 -4.74 -0.8 -1.69 h -3.631 v -5.73 h 3.631 v -1.69 -0.8 -4.74 -0.802 -4.73 -0.8 -1.7 h -3.631 z"
        inkscape:connector-curvature="0" />
     <path id="TX-Aula" class="aula" data-use=""
