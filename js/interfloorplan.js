@@ -22,7 +22,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // search, using selections
 
 
-(function(g){
+var interfloorplan = (function(g){
 
   console.log('Hello Sironi!');
 
@@ -44,6 +44,40 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 	}
 
 
+  /**
+   * Retrieve the configuration
+   */
+  function getConf(){
+
+    var res = null;
+
+    var URL = "config.json";
+
+    req=new XMLHttpRequest();
+    req.open("GET",URL,true);
+    req.setRequestHeader('Content-Type', 'application/json; charset=utf-8');
+    req.send();
+    req.onerror = function () {
+      console.log("Error during configuration request.");
+    };
+
+    req.onreadystatechange = function () { //Courtesy of https://www.mattlunn.me.uk/blog/2011/11/handling-an-ajax-response-in-javascript-with-or-without-jquery/
+
+      if (this.readyState == 4) { // If the HTTP request has completed
+        if (this.status == 200) { // If the HTTP response code is 200 (e.g. successful)
+          console.log(this);
+          var result = JSON.parse(this.responseText); // Retrieve the response text
+          //Result not empty
+          if (result){
+            console.log(result);
+            //mapUpdate(result);
+          };
+        };
+      };// ready 4
+    };
+  };
+
+
   //Create a button
   function createButton(context, id, title, func) {
       var button = document.createElement("input");
@@ -55,8 +89,17 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
   }
 
 
-	//Starting here
-	g.onload = function(){
+
+  /**
+   * Gets the id from nconf and creates missing elements
+   */
+  function nconfDom(nconf){
+    LOG("Config", nconf);
+    return true;
+
+    getConf();
+
+    //TODO B chiamata ajax della configurazione
 
 		//If plan obj exists
 		if( document.getElementById('floorplan') ) {
@@ -197,6 +240,103 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 
 		} //If floorplan
+
 	};
+
+
+
+
+
+
+    /**
+     * Check if variable is a string, both created as
+     * var a = "string"
+     * and
+     * var a = new String("string")
+     */
+    function isString(x) {
+      return Object.prototype.toString.call(x) === "[object String]"
+    }
+
+
+
+    /**
+     * Retrieve the configuration
+     */
+    function getConfig(URL){
+
+      var req;
+      var res = null;
+
+      req=new XMLHttpRequest();
+      req.open("GET",URL,true);
+      req.send();
+      req.onerror = function () {
+        LOG("Error during configuration request.");
+      };
+
+      req.onreadystatechange = function () { //Courtesy of https://www.mattlunn.me.uk/blog/2011/11/handling-an-ajax-response-in-javascript-with-or-without-jquery/
+
+        LOG("Req state: ", this.readyState)//Status from 1 to 4
+
+        if (this.readyState == 4) { // If the HTTP request has completed
+          if (this.status == 200) { // If the HTTP response code is 200 (e.g. successful)
+            var result = JSON.parse(this.responseText); // Retrieve the response text
+            //Result not empty
+            if (result){
+              nconfDom(result);
+            } else {
+              LOG("Error state: ", 11); //Custom error
+            };
+          } else {
+            LOG("Error state: ", 10); //Custom error
+          };
+        };// ready 4
+      };
+    };
+
+
+
+
+
+
+
+
+
+
+
+
+
+  // Return a public object
+  return {
+
+    /**
+     * Load configuration objects
+     */
+    load: function (nconf=defConf, debug=false) {
+
+      //Disabling console when debug is disabled (default)
+      //Use LOG() instead of console.log() in this script
+      LOG = debug ? console.log.bind(console) : function () {};
+
+      //If is string should be an address where to retrieve the configuration
+      if ( isString(nconf) ) {
+
+        LOG( "Loading configuration...");
+        //Load config before nconfDom()
+        getConfig(nconf);
+
+      } else {
+
+        //Directly skip the loading
+        nconfDom(nconf);
+
+      }
+    }
+
+    //TODO B provide a destroy method
+
+  }
+
 
 })(window);

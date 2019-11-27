@@ -9,7 +9,8 @@
 	<meta name="author" content="Riccardo Gagliarducci @ Brixel">
 
 	<!-- remove style attribute using regex-> style="[^\"]*" -->
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/interfloorplan.css" />
+	<script src="js/interfloorplan.js"></script>
 
 </head>
 	<body>
@@ -39,8 +40,40 @@
 					</div>
 			</div>
 
-		<!-- Scripts -->
-		<script src="js/functions.js"></script>
+			<script type="text/javascript">
+
+					//Start when the whole page has loaded and Dom loading is complete, including all dependent resources
+					window.onload = function(){
+
+						//Create the configuration
+						var inlineConf = {
+							"name": "External v5", //Optional property, whatever name just for debug
+							"inputIds": {
+								"country":{ "id": "addr-country", "default": "Italia" },
+								"city":   { "id": "addr-city", "default": "Le Pulci" },
+								"street": { "id": "addr-street", "default": "Via Fresca" },
+								"number": { "id": "addr-number", "default": "1" },
+								"zip":    { "id": "addr-cap", "default": "060134" },
+								"lat":    { "id": "coords-lat", "default": "43.189" },
+								"lon":    { "id": "coords-lon", "default": "12.4505" }
+							},
+							"map": {
+								"mapHolder": { "id": "map-holder"},
+								"defaultLat":"43.189",
+								"defaultLon":"12.45",
+								"defaultZoom":"8"
+							}
+						};
+
+						//Or just use an url
+						var remoteConf = "http://bisonx.bisonx.lab/~crickyx/Interactive-Floorplan/auleList.json";
+
+						//Start
+						interfloorplan.load(remoteConf, true);
+					} //onload
+
+
+			</script>
 
 	</body>
 </html>

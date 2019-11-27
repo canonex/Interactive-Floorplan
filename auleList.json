@@ -1,0 +1,21 @@
+{
+	"ref": "Floorplan.svg",
+	"value": "File",
+	"features": [
+		{"id": "m3",
+			"type": "aula",
+		"properties": {
+			"label": "Laboratorio pippo",
+			"description": "bla bla bla",
+			"orario":[]
+		}
+	},
+	{"id": "biblioteca",
+		"type": "servizio",
+	"properties": {
+		"label": "Laboratorio pippo",
+		"description": "bla bla bla",
+		"orario":[]
+		}
+	}]
+}

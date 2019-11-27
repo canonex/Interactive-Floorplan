@@ -52,7 +52,7 @@ text {
   fill: var(--rosso);
 }
 
-.servizio {
+#Sironi .servizio {
   fill: var(--giallone);
 }
 
@@ -62,7 +62,6 @@ text {
 
 .distribuzione {
   fill: var(--azzurro);
-  fill: #dcf0ed;
 }
 
 .bidelleria, .ascensore, .caffe {
