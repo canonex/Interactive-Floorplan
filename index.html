@@ -6,10 +6,17 @@
 
 	<title>Interactive floorplan</title>
 	<meta name="description" content="Interactive Svg Floor Plan">
-	<meta name="author" content="Riccardo Gagliarducci @ Brixel">
+	<meta name="author" content="Riccardo Gagliarducci @ Accademia Sironi">
 
-	<!-- remove style attribute using regex-> style="[^\"]*" -->
+	<!-- Stile inline
+	È possibile rimuovere gli attributi style da un svg utilizzando regex:
+	style="[^\"]*"
+	-->
 	<link rel="stylesheet" href="css/interfloorplan.css" />
+
+	<!-- Libreria
+	Posso caricare la libreria nell'header del documento.
+	-->
 	<script src="js/interfloorplan.js"></script>
 
 </head>
@@ -25,12 +32,45 @@
 
 				<!-- Main -->
 					<div id="main">
-						<article class="thumb">
+						<article>
 
-							<div id="interfloorplan-ui"></div>
 
-							<!-- <?xml-stylesheet href="css/svg.css" type="text/css"?> -->
-							<object id="interfloorplan" data="Floorplan.svg" width="100%">
+							<!-- Multiple istanze
+							Possono esistere più mappe nella pagina. Le mappe vengono identificate
+							dalla classe "interfloorplan".
+							Ciascuna mappa è legata alla sua interfaccia tramite l'id che deve essere formato in questo modo:
+							mappa class="interfloorplan" con id="mappa1"
+							mappa ui id="mappa-1-ui"
+							L'id quindi può essere qualsiasi nome, l'interfaccia sarà nome-ui.
+							-->
+
+
+							<!-- Ui
+							In questo div viene creata l'interfaccia per navigare la mappa.
+							Può essere collocato ovunque nella pagina, basta che abbia questo id:
+							se non esiste non viene creata l'interfaccia.
+							Le azioni possono comunque essere guidate da javascript personalizzato. -->
+							<div id="sironi-ui"></div>
+
+
+							<!-- Object
+							Object è un modo per fare l'embed dell'svg, rendendo accessibile il DOM dell'svg.
+							Usando il tag img non è possibile accedere al dom.
+							Inoltre, deve essere posizionato nello stesso dominio del documento html altrimenti
+							il DOM è inaccessibile (same-origin policy).
+
+							Questo svg può avere un foglio di stile interno, con CDATA es.
+
+							<![CDATA[
+					    .firstb { fill: yellow; }
+					    .secondb { fill: red; }
+					    ]]>
+
+							Un ulteriore modo per inserire un foglio di stile esterno in un svg è l'uso di:
+							<?xml-stylesheet href="css/svg.css" type="text/css"?>
+							-->
+							<object id="sironi" data="Floorplan.svg" width="100%" class="interfloorplan">
+
 
 						</article>
 
@@ -39,10 +79,15 @@
 
 			<script type="text/javascript">
 
-					//Start when the whole page has loaded and Dom loading is complete, including all dependent resources
+					/* Onload
+					Posso far partire la funzione quando il DOM (tutto window) è completo, incluse tutte le dipendenze.
+					Onload è un evento, può essere assegnato a qualsiasi elemento.
+					*/
 					window.onload = function(){
 
-						//Create the configuration
+						/* Configurazione
+						Creo la configurazione per gestire la mappa
+						*/
 						var inlineConf = {
 							"name": "External v5", //Optional property, whatever name just for debug
 							"inputIds": {
@@ -62,10 +107,19 @@
 							}
 						};
 
-						//Or just use an url
+						/* Configurazione esterna
+						È possibile anche usare una risorsa esterna.
+						Se è posizionata su un altro dominio è necessario abilitare il server (sempre same-origin).
+						*/
 						var remoteConf = "http://bisonx.bisonx.lab/~crickyx/Interactive-Floorplan/auleList.json";
 
-						//Start
+						/* Start
+						La libreria caricata espone un "metodo pubblico" che permette di lanciare la funzione
+						prendendo due parametri.
+						È possibile leggere la documentazione della funzione nella libreria.
+						Per brevità, il primo parametro è l'oggetto configurazione oppure un indirizzo da cui recuperarlo,
+						il secondo indica se il debug (la stampa di messaggi utili per programmare la libreria) è attivo oppure no.
+						*/
 						interfloorplan.load(remoteConf, true);
 					} //onload
 
