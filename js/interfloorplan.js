@@ -26,6 +26,7 @@ var interfloorplan = (function(g){
 
   console.log('Hello Sironi!');
 
+
 	var floorplan = {};
 
 
@@ -90,17 +91,18 @@ var interfloorplan = (function(g){
 
   /**
    * Creates the interface for interaction with the plan
-   * context object the parent element
+   * context object the ui parent element
+   * name string  the name for the interface
    */
-  function createInterface(context) {
+  function createInterface(context, name) {
 
-    var form = createForm("form-debu");
+    var form = createForm( name+"-form-debuh" );
 
-    var collapseButton = createButton("collapse-button", "Collassa", createForm);
-    var restoreButton = createButton("collapse-button", "Ripristina", createForm);
+    var collapseButton = createButton( name+"collapse-button", "Collassa", createForm );
+    var restoreButton = createButton( name+"collapse-button", "Ripristina", createForm );
 
-    var classroomInput = createInput("floorplan-search", "Cerca aule");
-    var floorInput = createInput("show-floor", "Mostra piano");
+    var classroomInput = createInput( name+"floorplan-search", "Cerca aule" );
+    var floorInput = createInput( name+"show-floor", "Mostra piano" );
 
     form.appendChild( collapseButton );
     form.appendChild( restoreButton );
@@ -116,10 +118,35 @@ var interfloorplan = (function(g){
 
   /**
    * Gets the id from nconf and creates missing elements
+   *
+   * nconf
+   * debug
    */
   function nconfDom(nconf, debug){
     LOG("Debug:", debug);
     LOG("Config", nconf);
+
+    //Set the class maps should have to be parsed
+    mapclass = "interfloorplan";
+
+    //Load all maps
+    maps=document.getElementsByClassName( mapclass );
+
+    //Looping on each map
+    for (let map of maps) {
+
+      //Discover by id the optional ui box
+      var ui = document.getElementById( map.id+"-ui" );
+      if (ui) {
+        LOG("Create ui");
+        createInterface(ui, map.id);
+      }
+
+    }
+
+
+
+    return true;
 
 
     if (debug == true) {
@@ -132,12 +159,8 @@ var interfloorplan = (function(g){
 
 
 
-    return true;
-
-
 		//If plan svg exists
 		if( document.getElementById('floorplan') ) {
-
 
       var formSearch = document.getElementById('form-search');
 
@@ -284,10 +307,12 @@ var interfloorplan = (function(g){
 */
 
     /**
-     * Check if variable is a string, both created as
+     * Check if variable is a string, whether created as
      * var a = "string"
-     * and
+     * or
      * var a = new String("string")
+     *
+     * x  string  the string to test
      */
     function isString(x) {
       return Object.prototype.toString.call(x) === "[object String]"
@@ -295,20 +320,27 @@ var interfloorplan = (function(g){
 
 
     /**
-     * Retrieve the configuration
+     * Retrieve the configuration by XMLHttpRequest
+     * URL  string  The url where the configuration is stored
+     * debug bool Indicates whether to print debug info
      */
     function getConfig(URL, debug){
 
+      //Reclaring local used variable
       var req;
-      var res = null;
 
+      //Creating a XHR object
       req=new XMLHttpRequest();
+      //Initializing the request
       req.open("GET",URL,true);
+      //Send a default asynchronous request
       req.send();
+      //If returns an error
       req.onerror = function () {
         LOG("Error during configuration request.");
       };
 
+      //When the state of the communication chages, this event is fired: readyState contains the current state.
       req.onreadystatechange = function () { //Courtesy of https://www.mattlunn.me.uk/blog/2011/11/handling-an-ajax-response-in-javascript-with-or-without-jquery/
 
         LOG("Req state: ", this.readyState)//Status from 1 to 4
@@ -318,6 +350,7 @@ var interfloorplan = (function(g){
             var result = JSON.parse(this.responseText); // Retrieve the response text
             //Result not empty
             if (result){
+              //Fires the config loading
               nconfDom(result, debug);
             } else {
               LOG("Error state: ", 11); //Custom error
@@ -351,7 +384,9 @@ var interfloorplan = (function(g){
       if ( isString(nconf) ) {
 
         LOG( "Loading configuration...");
+
         //Load config before nconfDom()
+        //Debug is not a global param to be able to debug a single function
         getConfig(nconf, debug);
 
       } else {

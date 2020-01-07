@@ -8,13 +8,16 @@
 	<meta name="description" content="Interactive Svg Floor Plan">
 	<meta name="author" content="Riccardo Gagliarducci @ Accademia Sironi">
 
-	<!-- Stile inline
+	<!-- Inline style - Stile inline
+	It is possibile to use a regex to remove style attribute from an svg file:
 	È possibile rimuovere gli attributi style da un svg utilizzando regex:
+
 	style="[^\"]*"
 	-->
 	<link rel="stylesheet" href="css/interfloorplan.css" />
 
-	<!-- Libreria
+	<!-- Library - Libreria
+	I can load the library in the document head.
 	Posso caricare la libreria nell'header del documento.
 	-->
 	<script src="js/interfloorplan.js"></script>
@@ -35,15 +38,14 @@
 						<article>
 
 
-							<!-- Multiple istanze
-							Possono esistere più mappe nella pagina. Le mappe vengono identificate
-							dalla classe "interfloorplan".
+							<!-- Multiple instances - Multiple istanze
+							Possono esistere più mappe nella pagina.
+							Le mappe vengono identificate dalla classe "interfloorplan".
 							Ciascuna mappa è legata alla sua interfaccia tramite l'id che deve essere formato in questo modo:
 							mappa class="interfloorplan" con id="mappa1"
 							mappa ui id="mappa-1-ui"
 							L'id quindi può essere qualsiasi nome, l'interfaccia sarà nome-ui.
 							-->
-
 
 							<!-- Ui
 							In questo div viene creata l'interfaccia per navigare la mappa.
@@ -57,18 +59,31 @@
 							Object è un modo per fare l'embed dell'svg, rendendo accessibile il DOM dell'svg.
 							Usando il tag img non è possibile accedere al dom.
 							Inoltre, deve essere posizionato nello stesso dominio del documento html altrimenti
-							il DOM è inaccessibile (same-origin policy).
+							il DOM è inaccessibile (same-origin policy). -->
 
-							Questo svg può avere un foglio di stile interno, con CDATA es.
+							<!-- Style
+							Questo svg può avere un foglio di stile interno, utilizzando CDATA subito prima delle geometrie.
+							Es.
 
+							...</metadata>
+
+							<style type="text/css">
 							<![CDATA[
 					    .firstb { fill: yellow; }
 					    .secondb { fill: red; }
 					    ]]>
+							</style>
+
+							<g id=...
+
+							Attenzione: questo NON è supportato da Adobe Illustrator.
+							È supportato parzialmente da Inkscape (non funzionano molte proprietà dei testi).
+							Funziona sui browser (testato Firefox, Chrome).
 
 							Un ulteriore modo per inserire un foglio di stile esterno in un svg è l'uso di:
 							<?xml-stylesheet href="css/svg.css" type="text/css"?>
-							-->
+
+							Per combinare l'uso di stili interni ed esterni utilizzare una diversa specificità. -->
 							<object id="sironi" data="Floorplan.svg" width="100%" class="interfloorplan">
 
 
@@ -81,11 +96,12 @@
 
 					/* Onload
 					Posso far partire la funzione quando il DOM (tutto window) è completo, incluse tutte le dipendenze.
+					Questo mi assicura che l'oggetto svg sia totalmente caricato quando lancio le funzioni javascript.
 					Onload è un evento, può essere assegnato a qualsiasi elemento.
 					*/
 					window.onload = function(){
 
-						/* Configurazione
+						/* Configuration - Configurazione
 						Creo la configurazione per gestire la mappa
 						*/
 						var inlineConf = {
@@ -107,8 +123,9 @@
 							}
 						};
 
-						/* Configurazione esterna
-						È possibile anche usare una risorsa esterna.
+						/* External Configuration - Configurazione esterna
+						È possibile anche usare una risorsa esterna: questo permette di posticipare il caricamento della risorsa a quando
+						la pagina è già completamente caricata.
 						Se è posizionata su un altro dominio è necessario abilitare il server (sempre same-origin).
 						*/
 						var remoteConf = "http://bisonx.bisonx.lab/~crickyx/Interactive-Floorplan/auleList.json";
