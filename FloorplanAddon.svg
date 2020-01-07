@@ -31,8 +31,8 @@
      id="namedview6848"
      showgrid="false"
      inkscape:zoom="0.353553"
-     inkscape:cx="1305.78"
-     inkscape:cy="1607.83"
+     inkscape:cx="1341.14"
+     inkscape:cy="1132.65"
      inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
@@ -2848,4 +2848,15 @@
        x="575.395"
        y="488.082"
        style="font-size:22.930367px">AAA</tspan></text>
+  <text
+     id="text500"
+     y="769.154"
+     x="431.597"
+     style="font-size:4.586071px;line-height:1.25;font-family:'Book Antiqua';-inkscape-font-specification:'Book Antiqua';letter-spacing:0px;word-spacing:0px;fill:#008000;stroke-width:0.264581"
+     xml:space="preserve"><tspan
+       style="font-size:22.930367px"
+       y="769.154"
+       x="431.597"
+       id="tspan498"
+       sodipodi:role="line">TE</tspan></text>
 </svg>

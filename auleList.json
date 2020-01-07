@@ -1,6 +1,7 @@
 {
 	"ref": "Floorplan.svg",
 	"value": "File",
+	"parentElement": "interfloorplan-ui",
 	"features": [
 		{"id": "m3",
 			"type": "aula",

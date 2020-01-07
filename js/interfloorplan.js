@@ -44,70 +44,103 @@ var interfloorplan = (function(g){
 	}
 
 
+
+
+
+
   /**
-   * Retrieve the configuration
+   * Creates a button
+   * id     string  the id of the created element
+   * title  string  the title  of the created element
+   * function  string  the name of the function to call when clicked
    */
-  function getConf(){
-
-    var res = null;
-
-    var URL = "config.json";
-
-    req=new XMLHttpRequest();
-    req.open("GET",URL,true);
-    req.setRequestHeader('Content-Type', 'application/json; charset=utf-8');
-    req.send();
-    req.onerror = function () {
-      console.log("Error during configuration request.");
-    };
-
-    req.onreadystatechange = function () { //Courtesy of https://www.mattlunn.me.uk/blog/2011/11/handling-an-ajax-response-in-javascript-with-or-without-jquery/
-
-      if (this.readyState == 4) { // If the HTTP request has completed
-        if (this.status == 200) { // If the HTTP response code is 200 (e.g. successful)
-          console.log(this);
-          var result = JSON.parse(this.responseText); // Retrieve the response text
-          //Result not empty
-          if (result){
-            console.log(result);
-            //mapUpdate(result);
-          };
-        };
-      };// ready 4
-    };
-  };
-
-
-  //Create a button
-  function createButton(context, id, title, func) {
+  function createButton(id, title, func) {
       var button = document.createElement("input");
       button.id=id;
       button.type = "button";
       button.value = title;
       button.onclick = func;
-      context.appendChild(button);
+      return button;
   }
 
+  /**
+   * Creates a input
+   * id     string  the id of the created element
+   * name  string  the name  of the created element
+   */
+  function createInput(id, name) {
+      var inputF = document.createElement("input");
+      inputF.id=id;
+      inputF.type = "text";
+      inputF.name = name;
+      return inputF;
+  }
+
+
+  /**
+   * Creates a form
+   * id     string  the id of the created element
+   */
+  function createForm(id) {
+      var form = document.createElement("form");
+      form.id=id;
+      return form;
+  }
+
+
+  /**
+   * Creates the interface for interaction with the plan
+   * context object the parent element
+   */
+  function createInterface(context) {
+
+    var form = createForm("form-debu");
+
+    var collapseButton = createButton("collapse-button", "Collassa", createForm);
+    var restoreButton = createButton("collapse-button", "Ripristina", createForm);
+
+    var classroomInput = createInput("floorplan-search", "Cerca aule");
+    var floorInput = createInput("show-floor", "Mostra piano");
+
+    form.appendChild( collapseButton );
+    form.appendChild( restoreButton );
+    form.appendChild( document.createElement('br') )
+    form.appendChild( document.createTextNode("Cerca: ")  );
+    form.appendChild( classroomInput );
+    form.appendChild( document.createTextNode("Mostra: ")  );
+    form.appendChild( floorInput );
+    context.appendChild( form );
+
+  }
 
 
   /**
    * Gets the id from nconf and creates missing elements
    */
-  function nconfDom(nconf){
+  function nconfDom(nconf, debug){
+    LOG("Debug:", debug);
     LOG("Config", nconf);
+
+
+    if (debug == true) {
+      //Get parent Element and use it as context for the interface
+      var uiContainer = document.getElementById(nconf.parentElement);
+      LOG(uiContainer);
+      createInterface(uiContainer);
+    }
+
+
+
+
     return true;
 
-    getConf();
 
-    //TODO B chiamata ajax della configurazione
-
-		//If plan obj exists
+		//If plan svg exists
 		if( document.getElementById('floorplan') ) {
 
 
       var formSearch = document.getElementById('form-search');
-      createButton(formSearch, "collapse-button", "Collassa", collapseFloor);
-      createButton(formSearch, "collapse-button", "Ripristina", restoreFloor);
+
 
 			var svg = document.getElementById('floorplan').contentDocument;
 
@@ -246,7 +279,9 @@ var interfloorplan = (function(g){
 
 
 
-
+/**
+* Init part ___________________________________________________________________
+*/
 
     /**
      * Check if variable is a string, both created as
@@ -259,11 +294,10 @@ var interfloorplan = (function(g){
     }
 
 
-
     /**
      * Retrieve the configuration
      */
-    function getConfig(URL){
+    function getConfig(URL, debug){
 
       var req;
       var res = null;
@@ -284,7 +318,7 @@ var interfloorplan = (function(g){
             var result = JSON.parse(this.responseText); // Retrieve the response text
             //Result not empty
             if (result){
-              nconfDom(result);
+              nconfDom(result, debug);
             } else {
               LOG("Error state: ", 11); //Custom error
             };
@@ -296,15 +330,9 @@ var interfloorplan = (function(g){
     };
 
 
-
-
-
-
-
-
-
-
-
+/**
+* Public part _________________________________________________________________
+*/
 
 
   // Return a public object
@@ -324,12 +352,12 @@ var interfloorplan = (function(g){
 
         LOG( "Loading configuration...");
         //Load config before nconfDom()
-        getConfig(nconf);
+        getConfig(nconf, debug);
 
       } else {
 
         //Directly skip the loading
-        nconfDom(nconf);
+        nconfDom(nconf, debug);
 
       }
     }
