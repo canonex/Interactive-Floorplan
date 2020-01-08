@@ -29,7 +29,7 @@ var interfloorplan = (function(g){
   //Set the class maps should have to be parsed
   var mapclass = "interfloorplan";
 
-  //Compiled with useful elements after load
+  //Compiled with useful elements after load in nconfDom() by mapParse()
   var mapList = {};
 
 
@@ -135,11 +135,12 @@ var interfloorplan = (function(g){
    * name     string  the name for the interface
    * floors   partial DOM     svg to be used in buttons
    */
-  function createInterface(context, name, floors) {
+  function createInterface(context, name, floors, aule) {
 
     var p = createP( name+"-ui", "Controlli " + name)
 
     var form = createForm( name+"-form-debug" );
+
 
 
     //Create the interface for collapse button
@@ -154,6 +155,8 @@ var interfloorplan = (function(g){
     //collapseButton.removeEventListener("click", collapseClick, true);
 
 
+
+    //Create the interface for restore button
     var restoreButton = createButton( name+"-restore-button", "Ripristina", restoreFloor );
 
     //We need this extra step to be able to pass floors reference
@@ -165,8 +168,76 @@ var interfloorplan = (function(g){
     //collapseButton.removeEventListener("click", collapseClick, true);
 
 
+
+    //Create the interface for search input
     var classroomInput = createInput( name+"floorplan-search", "Cerca aule" );
+
+    //Event  writing
+    classroomInput.addEventListener('keyup', function() {
+
+      if (classroomInput.value.length > 2) {
+
+        var iSearch = classroomInput.value.toUpperCase()
+
+        for (let aula of aule) {
+
+          var aulaId = aula.id.toUpperCase();
+          var aulaUse = aula.dataset.use.toUpperCase();
+
+          //Clear all
+          aula.classList.remove( "selected");
+
+          //Seach in id and in data-use
+          if( aulaId.indexOf(iSearch) > -1 || aulaUse.indexOf(iSearch) > -1 ) {
+
+            aula.classList.add( "selected");
+
+          }
+        }
+      } else {
+        for (let aula of aule) {
+          aula.classList.remove( "selected");
+        }
+      }
+    });
+
+
+
+    //Create the interface for search floor
     var floorInput = createInput( name+"show-floor", "Mostra piano" );
+
+    //Event  writing
+    floorInput.addEventListener('keyup', function() {
+
+      if (floorInput.value.length > 1) {
+
+        collapseFloor(floors);
+
+        var iSearch = floorInput.value.toUpperCase()
+
+        for (let floor of floors) {
+
+          var floorId = floor.id.toUpperCase();
+
+          //Clear all
+          floor.style.display = 'none';
+
+          //Seach in id and in data-use
+          if( floorId.indexOf(iSearch) > -1 ) {
+
+            floor.style.display = 'inline';
+
+          }
+        }
+      } else {
+        for (let floor of floors) {
+          floor.style.display = 'inline';
+        }
+        restoreFloor(floors);
+      }
+    });
+
+
 
     form.appendChild( collapseButton );
     form.appendChild( restoreButton );
@@ -180,6 +251,7 @@ var interfloorplan = (function(g){
     context.appendChild( form );
 
   }
+
 
 
   /**
@@ -209,6 +281,7 @@ var interfloorplan = (function(g){
     }
 
   };
+
 
 
   /**
@@ -249,9 +322,6 @@ var interfloorplan = (function(g){
   };
 
 
-
-
-
   /**
    * Gets the id from nconf and creates missing elements
    *
@@ -271,7 +341,7 @@ var interfloorplan = (function(g){
         //Create the optional ui box
         if (mapList[map].ui) {
           LOG("Create ui");
-          createInterface(mapList[map].ui, map, mapList[map].floors);
+          createInterface(mapList[map].ui, map, mapList[map].floors, mapList[map].aule);
         }
 
         //Attach events when hover and print a text
@@ -507,10 +577,13 @@ var interfloorplan = (function(g){
       var list=[];
 
       for (var map in mapList) {
+        var inMap=[];
         for (let floor of mapList[map].floors) {
-          list.push(floor.id);
+          inMap.push(floor.id);
         }
+        list[map]=inMap;
       }
+
       return list;
     },
 
@@ -518,20 +591,15 @@ var interfloorplan = (function(g){
       var list=[];
 
       for (var map in mapList) {
+        var inMap=[];
         for (let aula of mapList[map].aule) {
-          list.push(aula.id);
+          inMap.push(aula.id);
         }
+        list[map]=inMap;
       }
+
       return list;
-    },
-
-    globalize: function(){
-      window.mapList = mapParse(mapclass);
     }
-
-    //TODO B provide a destroy method
-
   }
-
 
 })(window);
