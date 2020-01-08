@@ -84,6 +84,11 @@
 							<?xml-stylesheet href="css/svg.css" type="text/css"?>
 
 							Per combinare l'uso di stili interni ed esterni utilizzare una diversa specificità. -->
+
+
+							<!-- Structure - Struttura
+							Il file svg avere una specifica strtuttura per essere compatibile con lo script.
+							Osservarlo con l'ispector o aprirlo con Inkscape per scoprirla. -->
 							<object id="sironi" data="Floorplan.svg" width="100%" class="interfloorplan">
 
 
@@ -102,7 +107,8 @@
 					window.onload = function(){
 
 						/* Configuration - Configurazione
-						Creo la configurazione per gestire la mappa
+						Creo la configurazione per gestire la mappa.
+						La configurazione è un file json con la seguente struttura di esempio.
 						*/
 						var inlineConf = {
 							"name": "External v5", //Optional property, whatever name just for debug
