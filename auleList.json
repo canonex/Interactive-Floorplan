@@ -3,7 +3,7 @@
 	"value": "File",
 	"parentElement": "interfloorplan-ui",
 	"features": [
-		{"id": "m3",
+		{"id": "M3-Aula",
 			"type": "aula",
 		"properties": {
 			"label": "Laboratorio pippo",

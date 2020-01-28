@@ -57,8 +57,10 @@
 
 							<!-- Object
 							Object è un modo per fare l'embed dell'svg, rendendo accessibile il DOM dell'svg.
-							Usando il tag img non è possibile accedere al dom.
-							Inoltre, deve essere posizionato nello stesso dominio del documento html altrimenti
+							Usando il tag img non è possibile accedere al dom (va bene per contenuti svg statici).
+							È anche possibile inserire direttamente l'svg fra tag <svg> ma il contenuto risulta
+							difficilmente gestibile con programmi di editing vettoriale (Inkscape, Illustrator).
+							Il file caricato, deve essere posizionato nello stesso dominio del documento html altrimenti
 							il DOM è inaccessibile (same-origin policy). -->
 
 							<!-- Style
@@ -79,6 +81,8 @@
 							Attenzione: questo NON è supportato da Adobe Illustrator.
 							È supportato parzialmente da Inkscape (non funzionano molte proprietà dei testi).
 							Funziona sui browser (testato Firefox, Chrome).
+							Inksape permette di gestire Id e Classi direttamente dal programma tramite l'editor di xml integrato,
+							attivabile con Maiusc+Ctrl+x (Win e Linux).
 
 							Un ulteriore modo per inserire un foglio di stile esterno in un svg è l'uso di:
 							<?xml-stylesheet href="css/svg.css" type="text/css"?>

@@ -175,7 +175,7 @@ var interfloorplan = (function(g){
     //Event  writing
     classroomInput.addEventListener('keyup', function() {
 
-      if (classroomInput.value.length > 2) {
+      if (classroomInput.value.length > 1) {
 
         var iSearch = classroomInput.value.toUpperCase()
 
@@ -323,10 +323,21 @@ var interfloorplan = (function(g){
 
 
   /**
+   * Search config for info
+   *
+   * nconf  object  configuration
+   */
+  function infoSearch(nconf) {
+    var info = {};
+    return info;
+  }
+
+
+  /**
    * Gets the id from nconf and creates missing elements
    *
-   * nconf
-   * debug
+   * nconf  object  configuration
+   * debug  bool    whether to print debug info
    */
   function nconfDom(nconf, debug){
     LOG("Debug:", debug);
@@ -360,7 +371,7 @@ var interfloorplan = (function(g){
     					var x = labelText.getAttribute('x');
     					var y = labelText.getAttribute('y');
 
-    					aChild = svgTspan( 'currentHover', content, x, parseInt(y)+12);
+    					var aChild = svgTspan( 'currentHover', content, x, parseInt(y)+12);
     					label[0].appendChild(aChild);
     			});
 
@@ -381,91 +392,8 @@ var interfloorplan = (function(g){
     		}; //For aule
 
       }
-
     }
-
-/*
-		//If plan svg exists
-		if( document.getElementById('floorplan') ) {
-
-      var formSearch = document.getElementById('form-search');
-
-
-      //Search behaviour
-      var searchInput = document.getElementById('floorplan-search');
-      //Show behaviour
-      var showInput = document.getElementById('show-floor');
-
-      //Event  writing
-      searchInput.addEventListener('keyup', function() {
-
-        if (searchInput.value.length > 1) {
-
-          var iSearch = searchInput.value.toUpperCase()
-
-          for (let aula of aule) {
-
-            var aulaId = aula.id.toUpperCase();
-            var aulaUse = aula.dataset.use.toUpperCase();
-
-            //Clear all
-            aula.classList.remove( "selected");
-
-            //Seach in id and in data-use
-            if( aulaId.indexOf(iSearch) > -1 || aulaUse.indexOf(iSearch) > -1 ) {
-
-              aula.classList.add( "selected");
-
-            }
-          }
-        } else {
-          for (let aula of aule) {
-            aula.classList.remove( "selected");
-          }
-        }
-      });
-
-
-
-
-
-      //Event  writing
-      showInput.addEventListener('keyup', function() {
-
-        if (showInput.value.length > 1) {
-
-          collapseFloor();
-
-          var iSearch = showInput.value.toUpperCase()
-
-          for (let floor of floors) {
-
-            var floorId = floor.id.toUpperCase();
-
-            //Clear all
-            floor.style.display = 'none';
-
-            //Seach in id and in data-use
-            if( floorId.indexOf(iSearch) > -1 ) {
-
-              floor.style.display = 'inline';
-
-            }
-          }
-        } else {
-          for (let floor of floors) {
-            floor.style.display = 'inline';
-          }
-          restoreFloor();
-        }
-      });
-
-
-		} //If floorplan
-*/
 	};
-
-
 
 
 
