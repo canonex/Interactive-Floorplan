@@ -137,7 +137,7 @@ var interfloorplan = (function(g){
    */
   function createInterface(context, name, floors, aule) {
 
-    var p = createP( name+"-ui", "Controlli " + name)
+    var p = createP( name+"-ui", "Controlli " + name);
 
     var form = createForm( name+"-form-debug" );
 
@@ -157,7 +157,7 @@ var interfloorplan = (function(g){
 
 
     //Create the interface for restore button
-    var restoreButton = createButton( name+"-restore-button", "Ripristina", restoreFloor );
+    var restoreButton = createButton( name+"-restore-button", "Ripristina" );
 
     //We need this extra step to be able to pass floors reference
     var restoreClick = function() {
@@ -241,7 +241,7 @@ var interfloorplan = (function(g){
 
     form.appendChild( collapseButton );
     form.appendChild( restoreButton );
-    form.appendChild( document.createElement('br') )
+    form.appendChild( document.createElement('br') );
     form.appendChild( document.createTextNode("Cerca: ")  );
     form.appendChild( classroomInput );
     form.appendChild( document.createTextNode("Mostra: ")  );
@@ -264,8 +264,8 @@ var interfloorplan = (function(g){
   function collapseFloor(floors){
 
     for (let foor of floors) {
-      deltax=50;
-      deltay=-800;
+      var deltax=50;
+      var deltay=-800;
       foor.transform.baseVal.getItem(0).setTranslate(deltax,deltay);
     }
 
@@ -275,8 +275,8 @@ var interfloorplan = (function(g){
   function restoreFloor(floors){
 
     for (let foor of floors) {
-      posx=foor.dataset.posx;
-      posy=foor.dataset.posy;
+      var posx=foor.dataset.posx;
+      var posy=foor.dataset.posy;
       foor.transform.baseVal.getItem(0).setTranslate(posx,posy);
     }
 
