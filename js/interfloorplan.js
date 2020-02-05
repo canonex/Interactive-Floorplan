@@ -462,6 +462,7 @@ var interfloorplan = (function(g){
 * Public part _________________________________________________________________
 */
 
+  var LOG = {};
 
   // Return a public object
   return {
