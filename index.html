@@ -14,7 +14,7 @@
 
 	style="[^\"]*"
 	-->
-	<link rel="stylesheet" href="css/interfloorplan.css" />
+	<link type="text/css" href="css/interfloorplan.css" />
 
 	<!-- Library - Libreria
 	I can load the library in the document head.
@@ -113,7 +113,7 @@
 						/* Configuration - Configurazione
 						Creo la configurazione per gestire la mappa.
 						La configurazione è un file json con la seguente struttura di esempio.
-						*/
+
 						var inlineConf = {
 							"name": "External v5", //Optional property, whatever name just for debug
 							"inputIds": {
@@ -132,6 +132,8 @@
 								"defaultZoom":"8"
 							}
 						};
+
+						*/
 
 						/* External Configuration - Configurazione esterna
 						È possibile anche usare una risorsa esterna: questo permette di posticipare il caricamento della risorsa a quando
